@@ -1,65 +1,59 @@
 import type { Habitat, Investigation } from "@/lib/types";
-import type { Focus } from "@/lib/site";
-import { MISSING_TAG, WEIGHTS, rank } from "@/lib/ranking";
-import { useMemo, useState } from "react";
+import { FOCUS_OPTIONS, type Focus } from "@/lib/site";
+import { WEIGHTS, rank } from "@/lib/ranking";
+import { plainReason } from "@/lib/present";
+import { useMemo } from "react";
 
-const SEG = [
-  { key: "proximity", label: "Conditions", color: "#2F5D8A" },
-  { key: "fuel", label: "Fuel", color: "#6F94B8" },
-  { key: "pillar", label: "Pillar", color: "#B8620A" },
-  { key: "flight", label: "Flight", color: "#E0A867" },
+const PARTS = [
+  { key: "proximity", label: "Conditions" },
+  { key: "fuel", label: "Fuel" },
+  { key: "pillar", label: "Pillar" },
+  { key: "flight", label: "Flight" },
 ] as const;
 
 export default function Ranking({
   investigations,
   habitat,
   focus,
+  setFocus,
   onOpen,
 }: {
   investigations: Investigation[];
   habitat: Habitat;
   focus: Focus;
+  setFocus: (f: Focus) => void;
   onOpen: (id: string) => void;
 }) {
-  const [all, setAll] = useState(false);
-  const rows = useMemo(() => rank(investigations, habitat, focus).slice(0, all ? 8 : 5), [investigations, habitat, focus, all]);
+  const rows = useMemo(() => rank(investigations, habitat, focus).slice(0, 5), [investigations, habitat, focus]);
   return (
-    <section className="panel" aria-labelledby="rank-h">
-      <div className="panel-head">
-        <h2 id="rank-h">Most relevant investigations</h2>
-        <span className="text-[11px] text-muted">score 0 to 100</span>
-      </div>
-      <div className="flex flex-wrap gap-x-3 px-3 pb-1 text-[10px] text-muted">
-        {SEG.map((s) => (
-          <span key={s.key} className="inline-flex items-center gap-1">
-            <i className="inline-block h-2 w-2" style={{ background: s.color }} />
-            {s.label} {WEIGHTS[s.key] * 100}%
-          </span>
+    <section className="border border-line bg-white px-5 py-5" aria-labelledby="rank-h">
+      <h2 id="rank-h" className="text-[15px] font-semibold">Most relevant for this habitat</h2>
+      <div className="mt-3 flex flex-wrap gap-1.5" role="group" aria-label="Focus">
+        {FOCUS_OPTIONS.map((f) => (
+          <button key={f} type="button" aria-pressed={focus === f} onClick={() => setFocus(f)} className={`pill capitalize ${focus === f ? "pill-on" : ""}`}>
+            {f}
+          </button>
         ))}
       </div>
-      <ol className="divide-y divide-line">
-        {rows.map((r, idx) => (
-          <li key={r.inv.id}>
-            <button type="button" onClick={() => onOpen(r.inv.id)} className="block w-full px-3 py-1 text-left hover:bg-wash focus-visible:outline-2 focus-visible:outline-steel" title={r.why}>
-              <div className="flex items-center gap-2">
-                <span className="num w-4 text-[11px] text-muted">{idx + 1}</span>
-                <span className="min-w-0 flex-1 truncate text-[12.5px] font-medium">{r.inv.short}</span>
-                {r.missing && <span className="tag">{MISSING_TAG[r.missing]}</span>}
-                <span className="num w-8 text-right text-[12.5px]">{r.score.toFixed(0)}</span>
-              </div>
-              <div className="ml-6 mt-0.5 flex h-1.5 border border-line bg-white">
-                {SEG.map((s) => (
-                  <div key={s.key} style={{ width: `${WEIGHTS[s.key] * r.parts[s.key] * 100}%`, background: s.color }} />
-                ))}
-              </div>
-              <div className="ml-6 truncate text-[10.5px] text-muted">{r.why}</div>
-            </button>
-          </li>
-        ))}
+      <ol className="mt-2 list-decimal pl-7 marker:font-mono marker:text-[12px] marker:text-muted">
+        {rows.map((r) => {
+          const tip = `Score ${r.score.toFixed(0)} of 100. ${PARTS.map((p) => `${p.label} ${(WEIGHTS[p.key] * r.parts[p.key] * 100).toFixed(0)} of ${WEIGHTS[p.key] * 100}`).join(", ")}. ${r.why}`;
+          return (
+            <li key={r.inv.id} className="border-t border-line first:border-t-0">
+              <button type="button" onClick={() => onOpen(r.inv.id)} title={tip} className="block w-full py-3 text-left hover:bg-wash focus-visible:outline-2 focus-visible:outline-steel">
+                <div className="flex items-baseline gap-3">
+                  <span className="min-w-0 flex-1 truncate text-[15px] font-medium">{r.inv.short}</span>
+                  <span className="num text-[15px]">{r.score.toFixed(0)}</span>
+                </div>
+                <div className="mt-1.5 h-1 bg-wash">
+                  <div className="h-1 bg-[#8a929d]" style={{ width: `${r.score}%` }} />
+                </div>
+                <div className="mt-1.5 truncate text-[12px] text-muted">{plainReason(r, habitat)}</div>
+              </button>
+            </li>
+          );
+        })}
       </ol>
-      <button type="button" className="w-full border-t border-line py-1 text-[11.5px] text-steel hover:bg-wash" onClick={() => setAll((v) => !v)}>
-        {all ? "Show top 5" : "Show top 8"}
-      </button>
     </section>
   );
 }

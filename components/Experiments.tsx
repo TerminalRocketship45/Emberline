@@ -1,13 +1,13 @@
 "use client";
 
 import { useMemo, useState } from "react";
-import type { Investigation } from "@/lib/types";
-import { fmtRange } from "@/lib/format";
-import { FUEL_COLOR } from "@/lib/colors";
+import type { FuelType, Investigation } from "@/lib/types";
+import { rangeText } from "@/lib/present";
+import { ACCENT, GREY_BAR } from "@/lib/colors";
 
-type SortKey = "short" | "fuelType" | "o2" | "p" | "kind" | "confidence";
-
-const CONF_ORDER = { high: 0, medium: 1, low: 2 } as const;
+type SortKey = "short" | "fuelType" | "o2" | "p" | "kind";
+type FuelFilter = "all" | FuelType;
+type KindFilter = "all" | "flight" | "ground";
 
 function sortVal(i: Investigation, k: SortKey): string | number | null {
   switch (k) {
@@ -16,9 +16,14 @@ function sortVal(i: Investigation, k: SortKey): string | number | null {
     case "o2": return i.conditions.o2Pct ? i.conditions.o2Pct[0] : null;
     case "p": return i.conditions.pressurePsia ? i.conditions.pressurePsia[0] : null;
     case "kind": return i.kind;
-    case "confidence": return CONF_ORDER[i.confidence];
   }
 }
+
+const NR = (
+  <span className="text-muted" title="not reported">
+    {"—"}
+  </span>
+);
 
 export default function Experiments({
   investigations,
@@ -35,23 +40,29 @@ export default function Experiments({
 }) {
   const [key, setKey] = useState<SortKey>("short");
   const [dir, setDir] = useState<1 | -1>(1);
-  const rows = useMemo(
-    () =>
-      [...investigations].sort((a, b) => {
+  const [q, setQ] = useState("");
+  const [fuel, setFuel] = useState<FuelFilter>("all");
+  const [kind, setKind] = useState<KindFilter>("all");
+  const rows = useMemo(() => {
+    const needle = q.trim().toLowerCase();
+    return investigations
+      .filter((i) => fuel === "all" || i.fuelType === fuel)
+      .filter((i) => kind === "all" || i.kind === kind)
+      .filter((i) => !needle || `${i.short} ${i.name} ${i.id}`.toLowerCase().includes(needle))
+      .sort((a, b) => {
         const x = sortVal(a, key);
         const y = sortVal(b, key);
         if (x === null && y === null) return 0;
         if (x === null) return 1;
         if (y === null) return -1;
         return (x < y ? -1 : x > y ? 1 : 0) * dir;
-      }),
-    [investigations, key, dir],
-  );
+      });
+  }, [investigations, key, dir, q, fuel, kind]);
   const head = (k: SortKey, label: string) => (
     <th scope="col" aria-sort={key === k ? (dir === 1 ? "ascending" : "descending") : "none"}>
       <button
         type="button"
-        className="font-medium uppercase tracking-wide hover:text-ink"
+        className="hover:text-ink"
         onClick={() => {
           if (key === k) setDir((d) => (d === 1 ? -1 : 1));
           else {
@@ -69,41 +80,52 @@ export default function Experiments({
     if (selected.includes(id)) setSelected(selected.filter((s) => s !== id));
     else if (selected.length < 3) setSelected([...selected, id]);
   };
+  const chips = <T extends string>(opts: readonly T[], value: T, set: (v: T) => void, label: string) => (
+    <div className="flex gap-1.5" role="group" aria-label={label}>
+      {opts.map((o) => (
+        <button key={o} type="button" aria-pressed={value === o} onClick={() => set(o)} className={`pill capitalize ${value === o ? "pill-on" : ""}`}>
+          {o}
+        </button>
+      ))}
+    </div>
+  );
   return (
-    <section className="panel" aria-labelledby="exp-h">
-      <div className="panel-head">
-        <h2 id="exp-h">All investigations (N = {investigations.length})</h2>
-        <div className="flex items-center gap-2">
-          <span className="text-[11px] text-muted">Select up to 3 to compare</span>
+    <section className="mx-auto w-full max-w-[1100px]" aria-labelledby="exp-h">
+      <h2 id="exp-h" className="text-[15px] font-semibold">Investigations</h2>
+      <div className="mt-4 flex flex-wrap items-center gap-x-6 gap-y-3">
+        <input
+          type="search"
+          value={q}
+          onChange={(e) => setQ(e.target.value)}
+          placeholder="Search investigations"
+          aria-label="Search investigations"
+          className="w-[260px] border border-line bg-white px-3 py-1.5 text-[13px]"
+        />
+        {chips(["all", "solid", "liquid", "gas"] as const, fuel, setFuel, "Fuel type")}
+        {chips(["all", "flight", "ground"] as const, kind, setKind, "Flight or ground")}
+        <div className="ml-auto flex items-center gap-3">
+          {selected.length > 0 && <span className="text-[12px] text-muted">{selected.length} selected</span>}
           <button type="button" className="btn" disabled={selected.length < 2} onClick={onCompare}>
-            Compare {selected.length}
+            Compare
           </button>
         </div>
       </div>
-      <div className="overflow-x-auto">
-        <table className="grid-table">
+      <div className="mt-4 overflow-x-auto border border-line bg-white">
+        <table className="grid-table roomy">
           <thead>
             <tr>
-              <th scope="col"><span className="sr-only">Select</span></th>
-              {head("short", "Short")}
-              <th scope="col">Name</th>
-              {head("fuelType", "Fuel type")}
-              <th scope="col">Fuels</th>
+              <th scope="col" className="w-10"><span className="sr-only">Select</span></th>
+              {head("short", "Investigation")}
+              {head("fuelType", "Fuel")}
               {head("o2", "O2 range")}
-              {head("p", "Pressure range")}
-              <th scope="col">Flow</th>
-              <th scope="col">Sample</th>
-              <th scope="col">Diluents</th>
-              <th scope="col">Sensors</th>
-              <th scope="col">Pillars</th>
-              {head("kind", "Flight / ground")}
-              {head("confidence", "Confidence")}
+              {head("p", "Pressure")}
+              {head("kind", "Type")}
             </tr>
           </thead>
           <tbody>
             {rows.map((i) => (
-              <tr key={i.id} className={selected.includes(i.id) ? "bg-wash" : ""}>
-                <td>
+              <tr key={i.id} className={`cursor-pointer hover:bg-wash ${selected.includes(i.id) ? "bg-wash" : ""}`} onClick={() => onOpen(i.id)}>
+                <td onClick={(e) => e.stopPropagation()}>
                   <input
                     type="checkbox"
                     aria-label={`Compare ${i.short}`}
@@ -113,29 +135,25 @@ export default function Experiments({
                   />
                 </td>
                 <td>
-                  <button type="button" className="font-medium text-steel underline-offset-2 hover:underline" onClick={() => onOpen(i.id)}>
+                  <button type="button" className="text-left text-[14px] font-medium" onClick={(e) => { e.stopPropagation(); onOpen(i.id); }}>
                     {i.short}
                   </button>
+                  <div className="max-w-[480px] truncate text-[12px] text-muted" title={i.name}>{i.name}</div>
                 </td>
-                <td className="max-w-[260px] truncate" title={i.name}>{i.name}</td>
                 <td>
-                  <span className="inline-flex items-center gap-1">
-                    <i className="inline-block h-2 w-2" style={{ background: FUEL_COLOR[i.fuelType] }} />
-                    {i.fuelType}
+                  <span className="inline-flex items-center gap-2">
+                    <i className="inline-block h-2 w-2 rounded-full" style={{ background: i.fuelType === "solid" ? ACCENT : GREY_BAR }} />
+                    <span className="capitalize">{i.fuelType}</span>
                   </span>
                 </td>
-                <td className="max-w-[200px] truncate" title={i.fuels.join(", ")}>{i.fuels.join(", ") || "not reported"}</td>
-                <td className="num">{fmtRange(i.conditions.o2Pct, "%")}</td>
-                <td className="num">{fmtRange(i.conditions.pressurePsia, "psia")}</td>
-                <td className="num">{fmtRange(i.conditions.flowCmS, "cm/s")}</td>
-                <td className="max-w-[160px] truncate" title={i.sample ?? ""}>{i.sample ?? "not reported"}</td>
-                <td className="max-w-[100px] truncate" title={i.conditions.diluents.join(", ")}>{i.conditions.diluents.join(", ") || "not reported"}</td>
-                <td className="max-w-[160px] truncate" title={i.measurements.join(", ")}>{i.measurements.join(", ") || "not reported"}</td>
-                <td>{i.pillars.join(", ") || "not reported"}</td>
-                <td>{i.kind}</td>
-                <td>{i.confidence}</td>
+                <td className="num">{i.conditions.o2Pct ? rangeText(i.conditions.o2Pct, "%") : NR}</td>
+                <td className="num">{i.conditions.pressurePsia ? rangeText(i.conditions.pressurePsia, " psia") : NR}</td>
+                <td className="capitalize">{i.kind}</td>
               </tr>
             ))}
+            {rows.length === 0 && (
+              <tr><td colSpan={6} className="text-muted">No investigations match.</td></tr>
+            )}
           </tbody>
         </table>
       </div>

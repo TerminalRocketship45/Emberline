@@ -8,7 +8,7 @@
   --muted: #5a6572;
   --line: #d5d9df;
   --steel: #2f5d8a;
-  --amber: #e69f00;
+  --amber: #d98e04;
   --amberink: #9a5208;
 }
 
@@ -34,7 +34,7 @@ body {
   background: var(--bg);
   color: var(--ink);
   font-family: var(--font-plex-sans), system-ui, sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   font-variant-numeric: tabular-nums;
   -webkit-font-smoothing: antialiased;
 }
@@ -124,8 +124,8 @@ body {
 }
 
 .tab {
-  padding: 4px 12px 6px;
-  font-size: 12.5px;
+  padding: 6px 12px;
+  font-size: 15px;
   color: var(--muted);
   border-bottom: 2px solid transparent;
 }
@@ -136,6 +136,47 @@ body {
   color: var(--ink);
   font-weight: 500;
   border-bottom-color: var(--amber);
+}
+
+.seg {
+  display: inline-flex;
+  border: 1px solid var(--line);
+}
+.seg-b {
+  font-family: var(--font-plex-sans), system-ui, sans-serif;
+  padding: 6px 14px;
+  font-size: 12px;
+  color: var(--ink);
+  background: var(--surface);
+  white-space: nowrap;
+}
+.seg .seg-b + .seg-b {
+  border-left: 1px solid var(--line);
+}
+.seg-b:hover {
+  background: var(--wash);
+}
+.seg-on,
+.seg-on:hover {
+  background: #fdf3df;
+  box-shadow: inset 0 -2px 0 var(--amber);
+  font-weight: 500;
+}
+
+.pill {
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 3px 12px;
+  font-size: 12px;
+  color: var(--muted);
+  background: var(--surface);
+}
+.pill:hover {
+  background: var(--wash);
+}
+.pill-on {
+  color: var(--ink);
+  border-color: var(--ink);
 }
 
 .grid-table {
@@ -175,9 +216,47 @@ body {
   outline-offset: 1px;
 }
 
-@media (max-width: 640px) {
-  .field,
-  .field select {
-    width: 100%;
-  }
+.grid-table.roomy th,
+.grid-table.roomy td {
+  padding: 10px 16px;
+  font-size: 13px;
+  vertical-align: middle;
+}
+.grid-table.roomy thead th {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.analyst-skin section {
+  border-color: var(--line);
+}
+.analyst-skin h2 {
+  font-size: 15px;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.analyst-skin .leading-relaxed,
+.analyst-skin [aria-live] p.font-medium {
+  font-size: 16px;
+  line-height: 1.6;
+}
+.analyst-skin .flex-wrap.gap-2 > button {
+  border-radius: 999px;
+  border-color: var(--line);
+  color: var(--muted);
+  padding: 4px 12px;
+  font-size: 12px;
+}
+.analyst-skin .flex-wrap.gap-2 > button:hover {
+  color: var(--ink);
+  border-color: var(--ink);
+}
+.analyst-skin input {
+  font-size: 15px;
+}
+
+.analyst-skin button.bg-amber-600 {
+  background: var(--ink);
+  border-color: var(--ink);
+  border-radius: 2px;
 }
