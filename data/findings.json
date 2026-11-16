@@ -1,0 +1,298 @@
+[
+ {
+  "id": "f-saffire-spread",
+  "text": "In the large Saffire fabric burns in microgravity, concurrent-flow flame spread over the SIBAL fabric (40.6 by 94 cm, in air at about 21.5 percent O2 and 1 atm) reached a steady rate of 1.8 mm/s in Saffire-I (20 cm/s duct flow) and 2.3 mm/s in Saffire-III (25 cm/s). In 1 g the same sample burns completely and the fire accelerates.",
+  "value": "1.8 mm/s (Saffire-I); 2.3 mm/s (Saffire-III)",
+  "sourceIds": [
+   "urban-2017-asgsr",
+   "ferkul-2017-saffire",
+   "psi-98",
+   "psi-100"
+  ],
+  "verified": true
+ },
+ {
+  "id": "f-saffire-opposed",
+  "text": "Opposed-flow (upwind) spread in microgravity was sustained at 1.3 mm/s in Saffire-I and 0.98 mm/s in Saffire-III, whereas the 1 g downward-burn analogue did not propagate.",
+  "value": "1.3 mm/s and 0.98 mm/s",
+  "sourceIds": [
+   "urban-2017-asgsr",
+   "ferkul-2017-saffire"
+  ],
+  "verified": true
+ },
+ {
+  "id": "f-saffire-flame-length",
+  "text": "Saffire flames reached a steady flame length: about 40 mm for concurrent spread and about 24 mm for opposed spread, rather than growing without limit as the 1 g fire does.",
+  "value": "about 40 mm concurrent; about 24 mm opposed",
+  "sourceIds": [
+   "ferkul-2017-saffire",
+   "urban-2017-asgsr"
+  ],
+  "verified": true
+ },
+ {
+  "id": "f-saffire-2",
+  "text": "Saffire-II used small 5 by 29 cm samples at about 22.1 percent O2 with mixed results: silicone did not ignite in microgravity although it burned completely in 1 g, cotton-fiberglass burned completely, and Nomex burned about 5 cm in microgravity (about 0 in 1 g).",
+  "value": "SIBAL 2.1 mm/s at 20 cm/s; 2.6 mm/s at 25 cm/s",
+  "sourceIds": [
+   "urban-2017-asgsr",
+   "psi-99"
+  ],
+  "verified": true
+ },
+ {
+  "id": "f-confinement",
+  "text": "Spread depends on duct confinement: smaller microgravity tunnels gave faster spread than Saffire because hot gas accelerates in the confined duct. A fire behind a panel may therefore be more hazardous than one in open cabin volume.",
+  "value": null,
+  "sourceIds": [
+   "ferkul-2017-saffire",
+   "urban-2019-cf"
+  ],
+  "verified": true
+ },
+ {
+  "id": "f-test1-not-conservative",
+  "text": "The 1 g NASA-STD-6001 Test 1 limits are not conservative: materials burn in microgravity at lower O2, by up to 4 percent O2 mole fraction. Mylar G has a 1 g upper limiting oxygen index of 20.8 percent against 17 percent in 0 g at 10.2 psia.",
+  "value": "up to 4 percent O2 lower in 0 g",
+  "sourceIds": [
+   "olson-2008-tm"
+  ],
+  "verified": true
+ },
+ {
+  "id": "f-test1-materials",
+  "text": "Ultem 1000 limits are 26.5 percent O2 in 1 g and 24 percent in 0 g; Nomex HT90-40 is 25.4 percent in 1 g and 23 percent in 0 g (14.7 psia). The Ultem 0 g mean limit of 22.5 percent lies inside the ISS and Shuttle 21 plus or minus 2 percent band.",
+  "value": "Ultem 26.5 to 24; Nomex 25.4 to 23 percent O2",
+  "sourceIds": [
+   "olson-2008-tm"
+  ],
+  "verified": true
+ },
+ {
+  "id": "f-bass2-pmma",
+  "text": "BASS-II reports that PMMA rods sustain spread at 17 percent O2 in microgravity against 18 percent in 1 g, and that microgravity spread was faster at all comparable O2 levels and diameters. The test matrix spans 0.4 to 8 cm/s and 15 to 21 percent O2 in opposed flow.",
+  "value": "17 percent (0 g) vs 18 percent (1 g) O2",
+  "sourceIds": [
+   "bass2-sci-rep-2018",
+   "ferkul-2016-ices",
+   "olson-2019-bass2",
+   "psi-25"
+  ],
+  "verified": false
+ },
+ {
+  "id": "f-u-shaped",
+  "text": "The flammability boundary is U-shaped in O2 against flow speed. The low-flow branch is quenching by radiative loss, observed near about 1 cm/s for thin fuels, and is unreachable in 1 g where buoyant flow is at least about 20 cm/s.",
+  "value": "quench near 1 cm/s",
+  "sourceIds": [
+   "ferkul-2026-lpsc",
+   "olson-2008-tm"
+  ],
+  "verified": false
+ },
+ {
+  "id": "f-flex-loi",
+  "text": "FLEX measured the limiting oxygen index (LOI) of droplets: methanol burns down to about 12 to 13 percent O2 in O2 and inert-gas mixtures (0.7 and 1 atm, 12 to 30 percent O2, CO2 or He 0 to 70 percent).",
+  "value": "methanol LOI about 12-13 percent O2",
+  "sourceIds": [
+   "nayagam-2013-loi",
+   "psi-69"
+  ],
+  "verified": true
+ },
+ {
+  "id": "f-flex-co2-he",
+  "text": "Reported FLEX LOIs (O2 mole fraction): O2/N2 about 0.12 for methanol and 0.15 for heptane; with CO2 about 0.14 and 0.17; with He at 1 atm about 0.14 and 0.15. CO2 raises the heptane LOI by about 2 points, whereas He barely changes it.",
+  "value": "CO2 +2 points; He about 0",
+  "sourceIds": [
+   "nayagam-2013-loi",
+   "dietrich-2014-flex"
+  ],
+  "verified": false
+ },
+ {
+  "id": "f-cool-flames",
+  "text": "FLEX discovered cool flames: after a large heptane droplet's visible flame dies by radiative extinction, the droplet keeps vaporizing, sustained by soot-free low-temperature chemistry. A visibly dead fire can still be releasing fuel vapour.",
+  "value": null,
+  "sourceIds": [
+   "nayagam-2012-cool",
+   "dietrich-2015-tp"
+  ],
+  "verified": false
+ },
+ {
+  "id": "f-cfi-scope",
+  "text": "CFI studies cool-flame burning of n-dodecane, n-dodecane/iso-dodecane mixtures and farnesane droplets at pressures from 0.25 to 5 atm, including the effect of helium dilution on cool-flame behaviour and soot formation during cool-flame combustion.",
+  "value": "0.25-5 atm; He dilution",
+  "sourceIds": [
+   "psi-39"
+  ],
+  "verified": true
+ },
+ {
+  "id": "f-cfig-cool-conditions",
+  "text": "In CFI-G, spherical gas-fueled cool diffusion flames were obtained only for normal n-butane flames at 2 bar and an ambient O2 mole fraction of 0.39; they were not readily produced elsewhere in the matrix. Burner temperature was found to matter.",
+  "value": "n-butane, 2 bar, XO2 0.39",
+  "sourceIds": [
+   "kim-2023-cfig",
+   "psi-159"
+  ],
+  "verified": false
+ },
+ {
+  "id": "f-cfig-matrix",
+  "text": "The CFI-G experimental table in PSI holds 154 tests with usable O2 and pressure, spanning 12 to 85 percent O2 and 7.2 to 48.0 psia, for ethane, propane and butane inverse flames.",
+  "value": "154 tests; 12-85 percent O2; 7.2-48.0 psia",
+  "sourceIds": [
+   "psi-159"
+  ],
+  "verified": true
+ },
+ {
+  "id": "f-same-sizes",
+  "text": "Smoke from overheated spacecraft materials in low gravity is sub-micron: a substantial fraction of particles is below 500 nm in SAME, and most average sizes are 200 to 400 nm in SAME-2, with larger particles in some quiescent cases. Smoke transport is dominated by mixing, so detection lags are longer than in 1 g.",
+  "value": "below 500 nm (SAME); 200-400 nm (SAME-2)",
+  "sourceIds": [
+   "urban-2009-same",
+   "same2-ntrs",
+   "psi-102",
+   "psi-101"
+  ],
+  "verified": false
+ },
+ {
+  "id": "f-same-r",
+  "text": "SAME-R flight tests ran from July 16 to September 9, 2010, completing 66 test points, with Pyrell intumescent foam replacing the DBP samples and new no-flow heating conditions.",
+  "value": "66 test points",
+  "sourceIds": [
+   "psi-101"
+  ],
+  "verified": true
+ },
+ {
+  "id": "f-bre-self-extinguish",
+  "text": "BRE microgravity flames emulating condensed fuels burned quasi-steadily in elevated-oxygen atmospheres without any airflow, whereas such flames in a normal 21 percent O2 atmosphere self-extinguished in a short time. The atmospheres planned for the flights were 14.7 psia and 21 percent, 10.2 psia and 26.5 percent, and 8.2 psia and 34 percent O2.",
+  "value": "21 percent self-extinguishes",
+  "sourceIds": [
+   "psi-20"
+  ],
+  "verified": true
+ },
+ {
+  "id": "f-bre-numbers",
+  "text": "In BRE, flames self-extinguished within 40 s at 21 percent O2 but burned steadily at 26.5, 34 and 40 percent O2 (ethylene/N2 burner of 25 and 50 mm, 0.57 to 1 bar). 34 percent is the 8.2 psia exploration atmosphere.",
+  "value": "steady at 26.5, 34, 40 percent",
+  "sourceIds": [
+   "dehghani-diss-umd",
+   "dehghani-2021-umd"
+  ],
+  "verified": false
+ },
+ {
+  "id": "f-o2-fraction",
+  "text": "Fire responds to O2 fraction (mole fraction), not O2 partial pressure. Humans respond to constant O2 partial pressure even at reduced total pressure, so raising O2 to hold the breathing partial pressure at lower total pressure makes the cabin more flammable.",
+  "value": "mole fraction, not partial pressure",
+  "sourceIds": [
+   "harper-2016-moc",
+   "ferkul-2026-lpsc",
+   "olson-2008-tm"
+  ],
+  "verified": true
+ },
+ {
+  "id": "f-pressure-independent",
+  "text": "Upward Test 1 limits are nearly pressure-independent (1 g limiting-oxygen lines are almost vertical on an O2 against pressure plot, except halogenated materials). The opposed-flow spread correlation scales as X_O2^0.9 times P^0.05 (P in atm).",
+  "value": "X_O2^0.9 * P^0.05",
+  "sourceIds": [
+   "olson-2008-tm",
+   "harper-2016-moc"
+  ],
+  "verified": true
+ },
+ {
+  "id": "f-low-pressure",
+  "text": "In 99.8 percent O2, the non-metallic materials tested became flammable between 0.4 and 0.9 psia, so low pressure alone does not make a material safe.",
+  "value": "0.4-0.9 psia",
+  "sourceIds": [
+   "hirsch-2010"
+  ],
+  "verified": true
+ },
+ {
+  "id": "f-30pct-not-worst",
+  "text": "Some materials with a maximum oxygen concentration of 30 percent at 10.2 psia fail at 25.9 percent at 14.7 psia, so the assumption that 30 percent and 10.2 psia is always the worst case is false for some materials.",
+  "value": "25.9 percent at 14.7 psia",
+  "sourceIds": [
+   "harper-2016-moc",
+   "olson-2008-tm"
+  ],
+  "verified": true
+ },
+ {
+  "id": "f-exploration-atmosphere",
+  "text": "The current HLS, lunar habitat and pressurized rover atmosphere is nominally 8.2 psia and 34 percent O2 (O2 partial pressure about 2.79 psia, physiologically equivalent to 10.2 psia and 26.5 percent), with control bands up to 37 percent O2. No PSI solid-material (fabric or plastic) test has been run at this atmosphere; the only PSI flight tests at it are BRE's gas burner that emulates condensed fuels.",
+  "value": "8.2 psia; 34 percent (up to 37)",
+  "sourceIds": [
+   "ferkul-2026-lpsc",
+   "norcross-2015-hypoxia"
+  ],
+  "verified": true
+ },
+ {
+  "id": "f-lunar-spread",
+  "text": "Downward flame spread over SIBAL fabric in air at lunar gravity is 0.11 cm/s in a centrifuge drop test and 0.086 cm/s in parabolic aircraft flight, and was steady for the whole 20 s test. In 1 g, downward spread over the same fabric cannot be achieved.",
+  "value": "0.11 cm/s; 0.086 cm/s",
+  "sourceIds": [
+   "ferkul-2026-lpsc"
+  ],
+  "verified": true
+ },
+ {
+  "id": "f-lunar-most-flammable",
+  "text": "Models show the O2 needed for flammability reaches a minimum near lunar gravity, and downward spread rate peaks in partial gravity, so lunar gravity may be close to the most flammable condition.",
+  "value": null,
+  "sourceIds": [
+   "ferkul-2026-lpsc"
+  ],
+  "verified": true
+ },
+ {
+  "id": "f-fm2",
+  "text": "A planned lunar-surface flame-spread test (FM2) will burn four fabric samples upward at 8.2 psia, starting at 37, 33, 29 and 25 percent O2; the test material has an expected lunar limiting oxygen concentration of 24 to 26 percent.",
+  "value": "8.2 psia; 37-25 percent O2",
+  "sourceIds": [
+   "ferkul-2026-lpsc"
+  ],
+  "verified": true
+ },
+ {
+  "id": "f-spread-multiplier",
+  "text": "Estimate (model, not a measurement): scaling the opposed-flow correlation from ISS air, flames spread about 1.5 times faster at 34 percent O2 and 8.2 psia (about 1.8 times for n = 1.25), about 1.4 times at 30 percent and 10.2 psia, and about 1.6 to 2.0 times at 37 percent and 8.2 psia. Valid for thin fabrics, 21 to 40 percent O2, 0.5 to 1 atm.",
+  "value": "1.51x (n=0.9) to 1.78x (n=1.25) at 34 percent, 8.2 psia",
+  "sourceIds": [
+   "olson-2008-tm",
+   "urban-2017-asgsr"
+  ],
+  "verified": false
+ },
+ {
+  "id": "f-spice-length",
+  "text": "SPICE: the smoke-point flame length in microgravity increases with coflow velocity and decreases with burner diameter, correlating as d^-0.77 times u^0.48 (burner diameter d, coflow velocity u) in one analysis and d^-0.67 times u^0.27 in another.",
+  "value": "d^-0.77 u^0.48",
+  "sourceIds": [
+   "dotson-spice",
+   "debold-spice"
+  ],
+  "verified": false
+ },
+ {
+  "id": "f-spice-soot-ranking",
+  "text": "SPICE sooting propensity ranking in the thesis analysis: methane is lowest, then ethane, ethylene, propane and propylene highest.",
+  "value": "methane < ethane < ethylene < propane < propylene",
+  "sourceIds": [
+   "debold-spice"
+  ],
+  "verified": false
+ }
+]

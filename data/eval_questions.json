@@ -1,0 +1,168 @@
+[
+  {
+    "question": "What did Saffire learn about large fires in microgravity?",
+    "expectedIds": [
+      "PSI-98",
+      "PSI-100",
+      "urban-2017-asgsr",
+      "ferkul-2017-saffire"
+    ],
+    "habitatId": "iss"
+  },
+  {
+    "question": "How fast does opposed-flow flame spread go in Saffire-I and Saffire-III?",
+    "expectedIds": [
+      "ferkul-2017-saffire",
+      "urban-2017-asgsr"
+    ],
+    "habitatId": "iss"
+  },
+  {
+    "question": "How long are steady Saffire flames in microgravity?",
+    "expectedIds": [
+      "ferkul-2017-saffire",
+      "urban-2017-asgsr"
+    ],
+    "habitatId": "iss"
+  },
+  {
+    "question": "What happened to silicone and cotton in Saffire-II?",
+    "expectedIds": [
+      "PSI-99"
+    ],
+    "habitatId": "iss"
+  },
+  {
+    "question": "Are the 1 g NASA-STD-6001 Test 1 limits conservative for microgravity?",
+    "expectedIds": [
+      "olson-2008-tm"
+    ],
+    "habitatId": "iss"
+  },
+  {
+    "question": "What oxygen level did PMMA rods need to sustain spread in BASS-II?",
+    "expectedIds": [
+      "PSI-25",
+      "bass2-sci-rep-2018",
+      "olson-2019-bass2"
+    ],
+    "habitatId": "iss"
+  },
+  {
+    "question": "Why is the flammability boundary U-shaped in oxygen against flow speed?",
+    "expectedIds": [
+      "ferkul-2026-lpsc",
+      "olson-2008-tm"
+    ],
+    "habitatId": "iss"
+  },
+  {
+    "question": "Which gases put out flames best in microgravity?",
+    "expectedIds": [
+      "PSI-69",
+      "nayagam-2013-loi",
+      "dietrich-2014-flex"
+    ],
+    "habitatId": "iss"
+  },
+  {
+    "question": "What are cool flames and what did FLEX discover about them?",
+    "expectedIds": [
+      "PSI-69",
+      "nayagam-2012-cool",
+      "dietrich-2015-tp"
+    ],
+    "habitatId": "iss"
+  },
+  {
+    "question": "What conditions produced cool diffusion flames in CFI-G?",
+    "expectedIds": [
+      "PSI-159",
+      "kim-2023-cfig"
+    ],
+    "habitatId": "exploration"
+  },
+  {
+    "question": "How small are smoke particles in microgravity and why does it matter for detectors?",
+    "expectedIds": [
+      "PSI-102",
+      "PSI-101",
+      "urban-2009-same",
+      "same2-ntrs"
+    ],
+    "habitatId": "iss"
+  },
+  {
+    "question": "What did the DAFT experiment test about aerosol counting?",
+    "expectedIds": [
+      "PSI-47"
+    ],
+    "habitatId": "iss"
+  },
+  {
+    "question": "What did BRE show about self-extinguishing flames at 21 percent oxygen versus 34 percent?",
+    "expectedIds": [
+      "PSI-20",
+      "dehghani-2021-umd",
+      "dehghani-diss-umd"
+    ],
+    "habitatId": "exploration"
+  },
+  {
+    "question": "Is a 34% oxygen lunar habitat more flammable than the ISS?",
+    "expectedIds": [
+      "ferkul-2026-lpsc",
+      "norcross-2015-hypoxia",
+      "olson-2008-tm",
+      "urban-2017-asgsr"
+    ],
+    "habitatId": "exploration"
+  },
+  {
+    "question": "Does fire respond to oxygen fraction or oxygen partial pressure?",
+    "expectedIds": [
+      "harper-2016-moc",
+      "ferkul-2026-lpsc",
+      "olson-2008-tm"
+    ],
+    "habitatId": "exploration"
+  },
+  {
+    "question": "Is 30 percent oxygen at 10.2 psia always the worst case for materials?",
+    "expectedIds": [
+      "harper-2016-moc",
+      "olson-2008-tm"
+    ],
+    "habitatId": "lunar-base"
+  },
+  {
+    "question": "Does low pressure alone make materials non-flammable in nearly pure oxygen?",
+    "expectedIds": [
+      "hirsch-2010"
+    ],
+    "habitatId": "spacesuit"
+  },
+  {
+    "question": "How fast does flame spread over fabric at lunar gravity?",
+    "expectedIds": [
+      "ferkul-2026-lpsc"
+    ],
+    "habitatId": "lunar-base"
+  },
+  {
+    "question": "What is the planned FM2 lunar surface flame-spread test?",
+    "expectedIds": [
+      "ferkul-2026-lpsc"
+    ],
+    "habitatId": "lunar-base"
+  },
+  {
+    "question": "How does sooting propensity rank across gaseous fuels in SPICE?",
+    "expectedIds": [
+      "PSI-107",
+      "debold-spice",
+      "dotson-spice"
+    ],
+    "habitatId": "iss"
+  }
+]

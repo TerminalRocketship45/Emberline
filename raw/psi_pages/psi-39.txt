@@ -1,0 +1,272 @@
+669.52 GB
+PSI-39
+Version 4
+Cool Flames Investigation(CFI)
+Investigation
+Submitted Date:
+18-Sep-2024
+Initial Release
+Date:
+18-Sep-2024
+DOI: 10.60555/m6pj-a914
+Research Area: Combustion Science
+SubResearch Area: Droplets
+Related Investigation: PSI-69
+License: CC0-1.0
+Project
+Project Type
+Microgravity Investigation
+Flight Platform
+International Space Station (ISS)
+Investigation Start Date
+10-01-2020
+Investigation End Date
+10-20-2021
+Sponsoring Agency
+ISSNL National Laboratory - National Science Foundation (NL-NSF)
+NASA Center
+Glenn Research Center (GRC)
+Objectives
+The objectives of this investigation are to:
+1) Examine the combustion behavior of n-dodecane and mixtures of n-dodecane/iso-dodecane at pressures
+ranging from 0.25 atm to 5 atm.
+2) Analyze the effects of helium dilution on cool flame behavior.
+3) Examine the behavior of combustion characteristics.
+4) Investigate the relationship between droplet size, pressure, and flame extinction, and (5) understand the
+consequence of soot formation during cool flame combustion.
+Approach
+The Combustion Integrated Rack (CIR) contains the Multi-User Droplet Combustion Apparatus (MDCA)
+which facilitates the controlled combustion of fuel droplets. A system of gas bottles and fuel syringes delivers
+the desired gas mixture to the combustion chamber ranging from 0.25 to 0.5 atm. Droplets of fuel are
+dispensed and suspended between hypodermic needles or tethered using silicon-carbide fibers. A hot-wire
+igniter is positioned near the droplet for ignition. After ignition the wire is retracted. Fuels observed include n-
+dodecane, farnesane, and mixtures of n-dodecane/iso-dodecane. Fuels diluted with molecular oxygen,
+atomic nitrogen, and helium to study the influence on flame extinction and dynamics. Flames were observed
+with a black-and-white camera for droplet size measurements. A UV camera was used for capturing the OH*
+radical emissions and flame size. Other high resolution cameras were used for monitoring and
+documentation. Narrow-band and wide-band radiometers for analyzed flame radiation.
+Hypothesis
+Flame combustion of liquid hydrocarbon fuels such as n-dodecane, n-dodecane/iso-dodecane mixtures, and
+faresane in microgravity can provide insights into low-temperature chemical kinetics, revealing critical
+parameters like droplet extinction diameters and flame dynamics that are not observable on Earth.
+Research Impacts/Earth Benefits
+A basic understanding of cool flames is important for understanding ignition phenomena of practical fuels and
+fuel additives. Cool flames play a key role in the development and selection of new fuels and the design of
+advanced engines such as clean, high-efficiency Homogeneous Charge Compression Ignition (HCCI)
+notifications
+share
+Cite this Investigation
+info
+Description
+Physical Sciences Informatics
+Home
+Contact Us
+Data & Tools
+
+
+menu_open
+Search Bar
+info
+Description
+table_view
+Experimental Table
+table_view
+Modeling Table
+menu_book
+Read Me
+pallet
+Hardware
+image
+Representative Ima
+sim_card_download
+Data files and docu
+menu_book
+Publications
+view_timeline
+Version History
+11/15/26, 6:04 PM
+NASA PSI: PSI-39
+https://psi.nasa.gov/physci/repo/data/investigations/PSI-39
+1/4
+
+engines. The research will also help combustion chemists to develop new computational models to compute
+combustion performance in for many practical applications on earth, including an understanding of how cool
+flame reactivity determines octane and cetane number for fuels in spark ignition and diesel engines.
+Cool Flames Investigation (CFI) will provide critical validation for complex chemical kinetic mechanisms,
+advance the understanding of flame dynamics and instabilities in low-temperature combustion, and support
+the design of safer spacecraft systems by refining knowledge of combustion in microgravity environments.
+Contact(s)
+Forman Williamsemail, Frederick Dryeremail, Tanvir Faroukemail, Vedha Nayagamemail,
+Daniel Dietrichemail
+
+
+Flex Number
+Test Date
+Local Time
+CIR
+Pressure
+1206
+9-Mar-17
+02:03:08 pm est
+f068a03
+1 atm
+1207
+9-Mar-17
+03:53:26 pm est
+f068a07
+1 atm
+1208
+9-Mar-17
+04:25:22 pm est
+f068a08
+1 atm
+1209
+9-Mar-17
+04:49:43 pm est
+f068a09
+1 atm
+1210
+9-Mar-17
+05:43:01 pm est
+f068a11
+1 atm
+Items per page:
+1 – 5 of 88
+No associated Modeling Table
+No associated Read me file
+Multi-User Droplet Combustion Apparatus (MDCA)
+Combustion Integrated Rack (CIR)
+table_view
+Experimental Table
+Select Experimental Table
+Filter
+5
+table_view
+Modeling Table
+menu_book
+Read Me
+pallet
+Hardware
+image
+Representative Images/Videos
+Identifier
+
+
+menu_open
+Search Bar
+11/15/26, 6:04 PM
+NASA PSI: PSI-39
+https://psi.nasa.gov/physci/repo/data/investigations/PSI-39
+2/4
+
+No associated investigation representative image(s).
+Selected: 0
+Investigation Files
+File/Directory Name
+Size
+Date AddedView Content
+PSI-39
+Investigation Metadata Files
+Raw Data
+Analyzed Data
+Reports
+Engineering Documents
+Science Documents
+Presentations
+Experimental table
+Can cool flames support quasi-steady alkane droplet burning?
+Authors: V Nayagam, DL Dietrich, PV Ferkul, MC Hicks, FA Williams
+DOI: 10.1016/j.combustflame.2012.07.012
+Cool-flame extinction during n-alkane droplet combustion in microgravity
+Authors: V Nayagam, DL Dietrich, MC Hicks, FA Williams
+DOI: 10.1016/j.combustflame.2015.01.012
+Partial-Burning Regime for Quasi-Steady Droplet Combustion Supported by Cool
+Flames
+Authors: Nayagam Vedha, Dietrich Daniel L., Williams Forman A.
+DOI: 10.2514/1.J054437
+The role of cool-flame chemistry in quasi-steady combustion and extinction of n-
+heptane droplets
+Authors: Paczko Guenter, Peters Norbert, Seshadri Kalyanasundaram, Williams Forman Arthur
+DOI: 10.1080/13647830.2014.934296
+Asymptotic analysis of quasi-steady n-heptane droplet combustion supported by
+cool-flame chemistry
+Authors: Seshadri Kalyanasundaram, Peters Norbert, Williams Forman A., Nayagam Vedha, Paczko Guenter
+DOI: 10.1080/13647830.2016.1248494
+Science in Short: Cool Flames
+Authors: Rachel Barry
+Low Temperature n-Dodecane Droplet Combustion Experiments Aboard the
+International Space Station
+Authors: Dietrich Daniel, Krause Timmothy, Nayagam Vedha, Farouk Tanvir, Dryer Frederick, Williams Forman
+DOI: 10.1007/s12217-024-10115-x
+sim_card_download
+Data files and documents
+Search Files
+search
+menu_book
+Publications
+
+
+menu_open
+Search Bar
+11/15/26, 6:04 PM
+NASA PSI: PSI-39
+https://psi.nasa.gov/physci/repo/data/investigations/PSI-39
+3/4
+
+CONTACTS
+NASA Official: Jonathan Galazka
+SITE INFORMATION
+ NASA Privacy Policy and Notices
+OTHER RESOURCES
+ PSI
+ NASA BPS
+NASA 
+|
+ No Fear Act 
+|
+ FOIA 
+|
+ USA.gov 
+|
+ Accessibility
+Selected Version
+Version 4
+Updated Date: 03-Jun-
+2025
+Changes: Additional
+documentation release
+Files Added
+(2831)
+PSI-
+39_metadata_PSI-
+118_CFI.zip
+PSI-39_Raw
+Data_F173E01_HIBM
+S_Camera_Settings.tx
+t
+PSI-39_Raw
+Data_F173E01_HIBM
+S_CFI_Camera_Setti
+ngs.txt
+Show More...
+Files Removed
+(2698)
+F205D01_HIBMS_CFI
+_Camera_Settings.txt
+F205D01_INTNS_Ca
+mera_Settings.txt
+F205D01_MDCA_CFI
+_Testpoint_Settings.tx
+t
+Show More...
+Show/Hide All Version Information
+view_timeline
+Version History
+
+
+menu_open
+Search Bar
+11/15/26, 6:04 PM
+NASA PSI: PSI-39
+https://psi.nasa.gov/physci/repo/data/investigations/PSI-39
+4/4

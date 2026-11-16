@@ -1,0 +1,64 @@
+[
+ {
+  "id": "iss",
+  "name": "International Space Station cabin",
+  "shortName": "ISS",
+  "o2Pct": 21,
+  "pressurePsia": 14.7,
+  "gravityG": 0,
+  "note": "Nominal ISS and Shuttle cabin air is 21 percent O2 (plus or minus 2) at 14.7 psia; materials were tested up to 24.1 percent O2. Microgravity.",
+  "sourceIds": [
+   "olson-2008-tm",
+   "harper-2016-moc"
+  ]
+ },
+ {
+  "id": "lunar-base",
+  "name": "Lunar base (challenge definition)",
+  "shortName": "Lunar base",
+  "o2Pct": 30,
+  "pressurePsia": 10.2,
+  "gravityG": 0.16,
+  "note": "The challenge statement describes a lunar base atmosphere of at least 30 percent O2 at no more than 10.2 psia. Lunar gravity is about 0.16 g.",
+  "sourceIds": [
+   "challenge-2026"
+  ]
+ },
+ {
+  "id": "exploration",
+  "name": "Exploration atmosphere (HLS, lunar habitat, pressurized rover)",
+  "shortName": "Exploration 8.2 psia",
+  "o2Pct": 34,
+  "pressurePsia": 8.2,
+  "gravityG": 0.16,
+  "note": "Nominal 8.2 psia and 34 percent O2, physiologically equivalent to 10.2 psia and 26.5 percent O2. Control bands run up to 37 percent O2. Lunar gravity is about 0.16 g.",
+  "sourceIds": [
+   "ferkul-2026-lpsc",
+   "norcross-2015-hypoxia"
+  ]
+ },
+ {
+  "id": "spacesuit",
+  "name": "Spacesuit",
+  "shortName": "Spacesuit",
+  "o2Pct": 100,
+  "pressurePsia": 4.3,
+  "gravityG": 0,
+  "note": "Pure oxygen at 4.3 psia, per the challenge statement. Gravity depends on the mission phase.",
+  "sourceIds": [
+   "challenge-2026"
+  ]
+ },
+ {
+  "id": "earth",
+  "name": "Earth sea level",
+  "shortName": "Earth",
+  "o2Pct": 20.9,
+  "pressurePsia": 14.7,
+  "gravityG": 1,
+  "note": "Reference atmosphere: 20.9 percent O2 at 14.7 psia, 1 g. This is the basis of the 1 g NASA-STD-6001 Test 1 screening method.",
+  "sourceIds": [
+   "olson-2008-tm"
+  ]
+ }
+]

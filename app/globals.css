@@ -1,0 +1,183 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #f4f5f7;
+  --surface: #ffffff;
+  --wash: #eef0f3;
+  --ink: #1b2129;
+  --muted: #5a6572;
+  --line: #d5d9df;
+  --steel: #2f5d8a;
+  --amber: #e69f00;
+  --amberink: #9a5208;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-wash: var(--wash);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-steel: var(--steel);
+  --color-amber: var(--amber);
+  --color-amberink: var(--amberink);
+  --font-sans: var(--font-plex-sans);
+  --font-mono: var(--font-plex-mono);
+  --radius-xs: 2px;
+}
+
+html {
+  background: var(--bg);
+}
+
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--font-plex-sans), system-ui, sans-serif;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+  -webkit-font-smoothing: antialiased;
+}
+
+.num {
+  font-family: var(--font-plex-mono), ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}
+
+.panel {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 2px;
+}
+
+.panel-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 4px 12px;
+  padding: 8px 12px 6px;
+}
+
+.panel-head h2 {
+  font-size: 12.5px;
+  font-weight: 600;
+}
+
+.tag {
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  padding: 0 4px;
+  font-size: 10px;
+  color: var(--muted);
+  background: var(--wash);
+  white-space: nowrap;
+}
+
+.chip {
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  padding: 1px 6px;
+  font-size: 11.5px;
+  background: var(--surface);
+  color: var(--steel);
+}
+.chip:hover {
+  background: var(--wash);
+}
+
+.btn {
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  padding: 2px 8px;
+  font-size: 12px;
+  background: var(--surface);
+}
+.btn:hover:not(:disabled) {
+  background: var(--wash);
+}
+.btn:disabled {
+  color: var(--muted);
+  opacity: 0.6;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  font-size: 10.5px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.field select {
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  background: var(--surface);
+  color: var(--ink);
+  padding: 3px 6px;
+  font-size: 12.5px;
+  text-transform: none;
+  letter-spacing: 0;
+  min-width: 200px;
+}
+
+.tab {
+  padding: 4px 12px 6px;
+  font-size: 12.5px;
+  color: var(--muted);
+  border-bottom: 2px solid transparent;
+}
+.tab:hover {
+  color: var(--ink);
+}
+.tab-on {
+  color: var(--ink);
+  font-weight: 500;
+  border-bottom-color: var(--amber);
+}
+
+.grid-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+.grid-table th,
+.grid-table td {
+  padding: 4px 8px;
+  text-align: left;
+  border-top: 1px solid var(--line);
+  white-space: nowrap;
+}
+.grid-table thead th {
+  font-size: 10.5px;
+  color: var(--muted);
+  background: var(--wash);
+  white-space: nowrap;
+}
+.grid-table td {
+  white-space: nowrap;
+}
+.grid-table tr.diff td,
+.grid-table tr.diff th {
+  background: #fdf3df;
+}
+.grid-table tr.diff th[scope="row"] {
+  border-left: 2px solid var(--amber);
+}
+.compare td {
+  white-space: normal;
+}
+
+:focus-visible {
+  outline: 2px solid var(--steel);
+  outline-offset: 1px;
+}
+
+@media (max-width: 640px) {
+  .field,
+  .field select {
+    width: 100%;
+  }
+}

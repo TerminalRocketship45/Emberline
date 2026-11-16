@@ -1,0 +1,294 @@
+{
+  "runAt": "2026-11-16T00:30:41.630Z",
+  "model": "gemini-3.5-flash",
+  "framework": "In-Context Retrieval-Augmented Language Modeling (Ram et al., 2023, TACL, arXiv:2302.00083) with ALCE-style citation generation and evaluation (Gao et al., 2023, EMNLP, arXiv:2305.14627)",
+  "questions": 20,
+  "sourceHitRate": 0.95,
+  "citationPrecision": 0.838,
+  "citationRecall": 0.675,
+  "unsupportedRate": 0,
+  "items": [
+    {
+      "question": "What did Saffire learn about large fires in microgravity?",
+      "expectedIds": [
+        "PSI-98",
+        "PSI-100",
+        "urban-2017-asgsr",
+        "ferkul-2017-saffire"
+      ],
+      "citedIds": [
+        "PSI-98",
+        "PSI-98"
+      ],
+      "hit": true,
+      "supportedSentences": 3,
+      "totalSentences": 3
+    },
+    {
+      "question": "How fast does opposed-flow flame spread go in Saffire-I and Saffire-III?",
+      "expectedIds": [
+        "ferkul-2017-saffire",
+        "urban-2017-asgsr"
+      ],
+      "citedIds": [
+        "PSI-98"
+      ],
+      "hit": true,
+      "supportedSentences": 3,
+      "totalSentences": 3
+    },
+    {
+      "question": "How long are steady Saffire flames in microgravity?",
+      "expectedIds": [
+        "ferkul-2017-saffire",
+        "urban-2017-asgsr"
+      ],
+      "citedIds": [
+        "PSI-98"
+      ],
+      "hit": true,
+      "supportedSentences": 2,
+      "totalSentences": 2
+    },
+    {
+      "question": "What happened to silicone and cotton in Saffire-II?",
+      "expectedIds": [
+        "PSI-99"
+      ],
+      "citedIds": [
+        "PSI-99"
+      ],
+      "hit": true,
+      "supportedSentences": 2,
+      "totalSentences": 2
+    },
+    {
+      "question": "Are the 1 g NASA-STD-6001 Test 1 limits conservative for microgravity?",
+      "expectedIds": [
+        "olson-2008-tm"
+      ],
+      "citedIds": [
+        "PSI-26",
+        "PSI-25"
+      ],
+      "hit": true,
+      "supportedSentences": 3,
+      "totalSentences": 3
+    },
+    {
+      "question": "What oxygen level did PMMA rods need to sustain spread in BASS-II?",
+      "expectedIds": [
+        "PSI-25",
+        "bass2-sci-rep-2018",
+        "olson-2019-bass2"
+      ],
+      "citedIds": [
+        "PSI-25"
+      ],
+      "hit": true,
+      "supportedSentences": 2,
+      "totalSentences": 2
+    },
+    {
+      "question": "Why is the flammability boundary U-shaped in oxygen against flow speed?",
+      "expectedIds": [
+        "ferkul-2026-lpsc",
+        "olson-2008-tm"
+      ],
+      "citedIds": [
+        "PSI-62",
+        "PSI-62"
+      ],
+      "hit": true,
+      "supportedSentences": 4,
+      "totalSentences": 4
+    },
+    {
+      "question": "Which gases put out flames best in microgravity?",
+      "expectedIds": [
+        "PSI-69",
+        "nayagam-2013-loi",
+        "dietrich-2014-flex"
+      ],
+      "citedIds": [
+        "PSI-26"
+      ],
+      "hit": false,
+      "supportedSentences": 2,
+      "totalSentences": 2
+    },
+    {
+      "question": "What are cool flames and what did FLEX discover about them?",
+      "expectedIds": [
+        "PSI-69",
+        "nayagam-2012-cool",
+        "dietrich-2015-tp"
+      ],
+      "citedIds": [
+        "PSI-117",
+        "PSI-142",
+        "PSI-117"
+      ],
+      "hit": true,
+      "supportedSentences": 3,
+      "totalSentences": 3
+    },
+    {
+      "question": "What conditions produced cool diffusion flames in CFI-G?",
+      "expectedIds": [
+        "PSI-159",
+        "kim-2023-cfig"
+      ],
+      "citedIds": [
+        "PSI-159"
+      ],
+      "hit": true,
+      "supportedSentences": 3,
+      "totalSentences": 3
+    },
+    {
+      "question": "How small are smoke particles in microgravity and why does it matter for detectors?",
+      "expectedIds": [
+        "PSI-102",
+        "PSI-101",
+        "urban-2009-same",
+        "same2-ntrs"
+      ],
+      "citedIds": [
+        "PSI-115",
+        "PSI-115",
+        "PSI-102",
+        "PSI-101"
+      ],
+      "hit": true,
+      "supportedSentences": 3,
+      "totalSentences": 3
+    },
+    {
+      "question": "What did the DAFT experiment test about aerosol counting?",
+      "expectedIds": [
+        "PSI-47"
+      ],
+      "citedIds": [
+        "PSI-47",
+        "PSI-47",
+        "PSI-47"
+      ],
+      "hit": true,
+      "supportedSentences": 3,
+      "totalSentences": 3
+    },
+    {
+      "question": "What did BRE show about self-extinguishing flames at 21 percent oxygen versus 34 percent?",
+      "expectedIds": [
+        "PSI-20",
+        "dehghani-2021-umd",
+        "dehghani-diss-umd"
+      ],
+      "citedIds": [
+        "PSI-20",
+        "PSI-20",
+        "PSI-20"
+      ],
+      "hit": true,
+      "supportedSentences": 2,
+      "totalSentences": 2
+    },
+    {
+      "question": "Is a 34% oxygen lunar habitat more flammable than the ISS?",
+      "expectedIds": [
+        "ferkul-2026-lpsc",
+        "norcross-2015-hypoxia",
+        "olson-2008-tm",
+        "urban-2017-asgsr"
+      ],
+      "citedIds": [
+        "ferkul-2026-lpsc",
+        "ferkul-2026-lpsc",
+        "harper-2016-moc"
+      ],
+      "hit": true,
+      "supportedSentences": 4,
+      "totalSentences": 4
+    },
+    {
+      "question": "Does fire respond to oxygen fraction or oxygen partial pressure?",
+      "expectedIds": [
+        "harper-2016-moc",
+        "ferkul-2026-lpsc",
+        "olson-2008-tm"
+      ],
+      "citedIds": [
+        "harper-2016-moc"
+      ],
+      "hit": true,
+      "supportedSentences": 1,
+      "totalSentences": 1
+    },
+    {
+      "question": "Is 30 percent oxygen at 10.2 psia always the worst case for materials?",
+      "expectedIds": [
+        "harper-2016-moc",
+        "olson-2008-tm"
+      ],
+      "citedIds": [
+        "harper-2016-moc"
+      ],
+      "hit": true,
+      "supportedSentences": 2,
+      "totalSentences": 2
+    },
+    {
+      "question": "Does low pressure alone make materials non-flammable in nearly pure oxygen?",
+      "expectedIds": [
+        "hirsch-2010"
+      ],
+      "citedIds": [
+        "hirsch-2010"
+      ],
+      "hit": true,
+      "supportedSentences": 2,
+      "totalSentences": 2
+    },
+    {
+      "question": "How fast does flame spread over fabric at lunar gravity?",
+      "expectedIds": [
+        "ferkul-2026-lpsc"
+      ],
+      "citedIds": [
+        "ferkul-2026-lpsc",
+        "ferkul-2026-lpsc"
+      ],
+      "hit": true,
+      "supportedSentences": 2,
+      "totalSentences": 2
+    },
+    {
+      "question": "What is the planned FM2 lunar surface flame-spread test?",
+      "expectedIds": [
+        "ferkul-2026-lpsc"
+      ],
+      "citedIds": [
+        "ferkul-2026-lpsc"
+      ],
+      "hit": true,
+      "supportedSentences": 2,
+      "totalSentences": 2
+    },
+    {
+      "question": "How does sooting propensity rank across gaseous fuels in SPICE?",
+      "expectedIds": [
+        "PSI-107",
+        "debold-spice",
+        "dotson-spice"
+      ],
+      "citedIds": [
+        "PSI-107",
+        "PSI-107"
+      ],
+      "hit": true,
+      "supportedSentences": 2,
+      "totalSentences": 2
+    }
+  ]
+}

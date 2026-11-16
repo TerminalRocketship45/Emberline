@@ -1,0 +1,632 @@
+[
+ {
+  "id": "psi-159",
+  "title": "NASA PSI-159: ACME CFI-G: Cool Flames Investigation with Gases",
+  "authors": null,
+  "year": null,
+  "venue": "NASA Physical Sciences Informatics (PSI)",
+  "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-159",
+  "doi": "10.60555/cyt1-kh64",
+  "kind": "psi"
+ },
+ {
+  "id": "psi-10",
+  "title": "NASA PSI-10: ACME Flame Design",
+  "authors": null,
+  "year": null,
+  "venue": "NASA Physical Sciences Informatics (PSI)",
+  "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-10",
+  "doi": null,
+  "kind": "psi"
+ },
+ {
+  "id": "psi-21",
+  "title": "NASA PSI-21: ACME CLD Flame: Coflow Laminar Diffusion Flame",
+  "authors": null,
+  "year": null,
+  "venue": "NASA Physical Sciences Informatics (PSI)",
+  "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-21",
+  "doi": null,
+  "kind": "psi"
+ },
+ {
+  "id": "psi-22",
+  "title": "NASA PSI-22: ACME E-FIELD Flames",
+  "authors": null,
+  "year": null,
+  "venue": "NASA Physical Sciences Informatics (PSI)",
+  "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-22",
+  "doi": null,
+  "kind": "psi"
+ },
+ {
+  "id": "psi-23",
+  "title": "NASA PSI-23: ACME s-Flame: Structure and Response of Spherical Flames",
+  "authors": null,
+  "year": null,
+  "venue": "NASA Physical Sciences Informatics (PSI)",
+  "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-23",
+  "doi": null,
+  "kind": "psi"
+ },
+ {
+  "id": "psi-106",
+  "title": "NASA PSI-106: SLICE: Structure and Liftoff in Combustion Experiment",
+  "authors": null,
+  "year": null,
+  "venue": "NASA Physical Sciences Informatics (PSI)",
+  "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-106",
+  "doi": null,
+  "kind": "psi"
+ },
+ {
+  "id": "psi-107",
+  "title": "NASA PSI-107: SPICE: Smoke Point In Coflow Experiment",
+  "authors": null,
+  "year": null,
+  "venue": "NASA Physical Sciences Informatics (PSI)",
+  "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-107",
+  "doi": null,
+  "kind": "psi"
+ },
+ {
+  "id": "psi-117",
+  "title": "NASA PSI-117: OpenFOAM cool flame CFD using FLEX data",
+  "authors": null,
+  "year": null,
+  "venue": "NASA Physical Sciences Informatics (PSI)",
+  "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-117",
+  "doi": null,
+  "kind": "psi"
+ },
+ {
+  "id": "psi-62",
+  "title": "NASA PSI-62: FGM concurrent flame spread compared with BASS",
+  "authors": null,
+  "year": null,
+  "venue": "NASA Physical Sciences Informatics (PSI)",
+  "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-62",
+  "doi": null,
+  "kind": "psi"
+ },
+ {
+  "id": "psi-60",
+  "title": "NASA PSI-60: SPICE soot analysis",
+  "authors": null,
+  "year": null,
+  "venue": "NASA Physical Sciences Informatics (PSI)",
+  "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-60",
+  "doi": null,
+  "kind": "psi"
+ },
+ {
+  "id": "psi-142",
+  "title": "NASA PSI-142: Cool flame counterflow extinction using FLEX",
+  "authors": null,
+  "year": null,
+  "venue": "NASA Physical Sciences Informatics (PSI)",
+  "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-142",
+  "doi": null,
+  "kind": "psi"
+ },
+ {
+  "id": "psi-115",
+  "title": "NASA PSI-115: SAME smoke simulation",
+  "authors": null,
+  "year": null,
+  "venue": "NASA Physical Sciences Informatics (PSI)",
+  "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-115",
+  "doi": null,
+  "kind": "psi"
+ },
+ {
+  "id": "psi-20",
+  "title": "NASA PSI-20: ACME BRE: Burning Rate Emulator",
+  "authors": null,
+  "year": null,
+  "venue": "NASA Physical Sciences Informatics (PSI)",
+  "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-20",
+  "doi": "10.60555/vb93-3y72",
+  "kind": "psi"
+ },
+ {
+  "id": "psi-25",
+  "title": "NASA PSI-25: BASS-II: Burning and Suppression of Solids II",
+  "authors": null,
+  "year": null,
+  "venue": "NASA Physical Sciences Informatics (PSI)",
+  "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
+  "doi": "10.60555/4qc4-de67",
+  "kind": "psi"
+ },
+ {
+  "id": "psi-26",
+  "title": "NASA PSI-26: BASS: Burning and Suppression of Solids",
+  "authors": null,
+  "year": null,
+  "venue": "NASA Physical Sciences Informatics (PSI)",
+  "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-26",
+  "doi": "10.60555/58h4-dy80",
+  "kind": "psi"
+ },
+ {
+  "id": "psi-39",
+  "title": "NASA PSI-39: CFI: Cool Flames Investigation",
+  "authors": null,
+  "year": null,
+  "venue": "NASA Physical Sciences Informatics (PSI)",
+  "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-39",
+  "doi": "10.60555/m6pj-a914",
+  "kind": "psi"
+ },
+ {
+  "id": "psi-47",
+  "title": "NASA PSI-47: DAFT / DAFT-2: Dust and Aerosol Measurement Feasibility Test",
+  "authors": null,
+  "year": null,
+  "venue": "NASA Physical Sciences Informatics (PSI)",
+  "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-47",
+  "doi": "10.60555/ztgj-d202",
+  "kind": "psi"
+ },
+ {
+  "id": "psi-68",
+  "title": "NASA PSI-68: FLEX-2: Flame Extinguishment Experiment-2",
+  "authors": null,
+  "year": null,
+  "venue": "NASA Physical Sciences Informatics (PSI)",
+  "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-68",
+  "doi": "10.60555/byp8-h018",
+  "kind": "psi"
+ },
+ {
+  "id": "psi-69",
+  "title": "NASA PSI-69: FLEX: Flame Extinguishment Experiment",
+  "authors": null,
+  "year": null,
+  "venue": "NASA Physical Sciences Informatics (PSI)",
+  "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-69",
+  "doi": "10.60555/mbq8-0451",
+  "kind": "psi"
+ },
+ {
+  "id": "psi-98",
+  "title": "NASA PSI-98: SAFFIRE-I: Spacecraft Fire Safety Experiment-I",
+  "authors": null,
+  "year": null,
+  "venue": "NASA Physical Sciences Informatics (PSI)",
+  "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-98",
+  "doi": "10.60555/0t15-1z43",
+  "kind": "psi"
+ },
+ {
+  "id": "psi-99",
+  "title": "NASA PSI-99: SAFFIRE-II: Spacecraft Fire Experiment-II",
+  "authors": null,
+  "year": null,
+  "venue": "NASA Physical Sciences Informatics (PSI)",
+  "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-99",
+  "doi": "10.60555/2chp-m469",
+  "kind": "psi"
+ },
+ {
+  "id": "psi-100",
+  "title": "NASA PSI-100: SAFFIRE-III: Spacecraft Fire Experiment-III",
+  "authors": null,
+  "year": null,
+  "venue": "NASA Physical Sciences Informatics (PSI)",
+  "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-100",
+  "doi": "10.60555/040q-4h36",
+  "kind": "psi"
+ },
+ {
+  "id": "psi-101",
+  "title": "NASA PSI-101: SAME-R: Smoke Aerosol Measurement Experiment-Reflight",
+  "authors": null,
+  "year": null,
+  "venue": "NASA Physical Sciences Informatics (PSI)",
+  "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+  "doi": "10.60555/2np7-jv14",
+  "kind": "psi"
+ },
+ {
+  "id": "psi-102",
+  "title": "NASA PSI-102: SAME: Smoke and Aerosol Measurement Experiment",
+  "authors": null,
+  "year": null,
+  "venue": "NASA Physical Sciences Informatics (PSI)",
+  "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-102",
+  "doi": "10.60555/gd4k-8h62",
+  "kind": "psi"
+ },
+ {
+  "id": "challenge-2026",
+  "title": "Flame in Freefall: NASA Space Apps Challenge 2026 challenge statement",
+  "authors": null,
+  "year": 2026,
+  "venue": "NASA Space Apps Challenge",
+  "url": "https://www.spaceappschallenge.org/2026/challenges/flame-in-freefall/",
+  "doi": null,
+  "kind": "challenge"
+ },
+ {
+  "id": "ferkul-2026-lpsc",
+  "title": "Material Flammability at Lunar and Martian Gravity (LPSC 2026)",
+  "authors": "Ferkul, Kralik, Liao, Johnston",
+  "year": 2026,
+  "venue": "Lunar and Planetary Science Conference 2026",
+  "url": "https://ntrs.nasa.gov/citations/20260001966",
+  "doi": null,
+  "kind": "paper"
+ },
+ {
+  "id": "norcross-2015-hypoxia",
+  "title": "Hypoxia evidence report (exploration atmosphere history)",
+  "authors": "Norcross et al.",
+  "year": 2015,
+  "venue": "NASA NTRS 20150021491",
+  "url": "https://ntrs.nasa.gov/citations/20150021491",
+  "doi": null,
+  "kind": "report"
+ },
+ {
+  "id": "olson-2008-tm",
+  "title": "Material flammability in microgravity and partial-pressure atmospheres (NASA/TM-2008-215260, SAE 2008-01-2055)",
+  "authors": "Olson, Ruff, Miller",
+  "year": 2008,
+  "venue": "NASA/TM-2008-215260",
+  "url": "https://ntrs.nasa.gov/citations/20080034883",
+  "doi": null,
+  "kind": "report"
+ },
+ {
+  "id": "urban-2017-asgsr",
+  "title": "Saffire: results from the first three flights (ASGSR 2017, Table 1)",
+  "authors": "Urban et al.",
+  "year": 2017,
+  "venue": "ASGSR 2017",
+  "url": "https://ntrs.nasa.gov/citations/20180005168",
+  "doi": null,
+  "kind": "paper"
+ },
+ {
+  "id": "ferkul-2017-saffire",
+  "title": "The Saffire Experiment: Large-Scale Combustion aboard Spacecraft",
+  "authors": "Ferkul et al.",
+  "year": 2017,
+  "venue": "10th US National Combustion Meeting",
+  "url": "https://www.pure.ed.ac.uk/ws/files/31828517/The_Saffire_Experiment_2017_US_National_Meeting_Final.pdf",
+  "doi": null,
+  "kind": "paper"
+ },
+ {
+  "id": "urban-2019-cf",
+  "title": "Flame spread: Effects of microgravity and scale",
+  "authors": "Urban et al.",
+  "year": 2019,
+  "venue": "Combustion and Flame 199, 168-182",
+  "url": "https://www.research.ed.ac.uk/en/publications/flame-spread-effects-of-microgravity-and-scale/",
+  "doi": null,
+  "kind": "paper"
+ },
+ {
+  "id": "harper-2016-moc",
+  "title": "Maximum oxygen concentration and flammability: oxygen concentration versus partial pressure (ASTM symposium)",
+  "authors": "Harper, Juarez, Perez, Hirsch, Beeson",
+  "year": 2016,
+  "venue": "ASTM symposium 2016",
+  "url": "https://ntrs.nasa.gov/citations/20160001047",
+  "doi": null,
+  "kind": "paper"
+ },
+ {
+  "id": "hirsch-2010",
+  "title": "Flammability of non-metallic materials in low-pressure oxygen",
+  "authors": "Hirsch et al.",
+  "year": 2010,
+  "venue": "NASA NTRS 20100015582",
+  "url": "https://ntrs.nasa.gov/citations/20100015582",
+  "doi": null,
+  "kind": "report"
+ },
+ {
+  "id": "olson-2014-nulp",
+  "title": "Normoxic Upward Limiting Pressure (ICES-2014-179)",
+  "authors": "Olson, Beeson, Fernandez-Pello",
+  "year": 2014,
+  "venue": "ICES-2014-179",
+  "url": "https://ntrs.nasa.gov/citations/20150004099",
+  "doi": null,
+  "kind": "paper"
+ },
+ {
+  "id": "nayagam-2013-loi",
+  "title": "Methanol droplet limiting oxygen index in FLEX",
+  "authors": "Nayagam, Dietrich, Hicks, Williams",
+  "year": 2013,
+  "venue": "8th US National Combustion Meeting",
+  "url": "https://ntrs.nasa.gov/citations/20130014061",
+  "doi": null,
+  "kind": "paper"
+ },
+ {
+  "id": "dietrich-2014-flex",
+  "title": "Droplet combustion experiments aboard the ISS",
+  "authors": "Dietrich et al.",
+  "year": 2014,
+  "venue": "Microgravity Science and Technology 26",
+  "url": null,
+  "doi": "10.1007/s12217-014-9372-2",
+  "kind": "paper"
+ },
+ {
+  "id": "dietrich-2015-tp",
+  "title": "FLEX report NASA/TP-2015-216046",
+  "authors": "Dietrich et al.",
+  "year": 2015,
+  "venue": "NASA/TP-2015-216046",
+  "url": "https://ntrs.nasa.gov/citations/20150023456",
+  "doi": null,
+  "kind": "report"
+ },
+ {
+  "id": "nayagam-2012-cool",
+  "title": "Cool flames in droplet combustion aboard the ISS",
+  "authors": "Nayagam, Dietrich, Ferkul, Hicks, Williams",
+  "year": 2012,
+  "venue": "Combustion and Flame 159, 3583-3588",
+  "url": null,
+  "doi": "10.1016/j.combustflame.2012.07.012",
+  "kind": "paper"
+ },
+ {
+  "id": "bass2-sci-rep-2018",
+  "title": "Microgravity flammability boundaries of PMMA rods (BASS-II)",
+  "authors": null,
+  "year": 2018,
+  "venue": "Scientific Reports",
+  "url": null,
+  "doi": "10.1038/s41598-017-18398-4",
+  "kind": "paper"
+ },
+ {
+  "id": "ferkul-2016-ices",
+  "title": "BASS-II results (ICES 2016)",
+  "authors": "Ferkul",
+  "year": 2016,
+  "venue": "ICES 2016",
+  "url": "https://ntrs.nasa.gov/citations/20160012691",
+  "doi": null,
+  "kind": "paper"
+ },
+ {
+  "id": "olson-2019-bass2",
+  "title": "Flammability Limits from BASS-II Testing in Microgravity Compared to Normal Gravity Limits (ICES-2019)",
+  "authors": "Olson et al.",
+  "year": 2019,
+  "venue": "ICES-2019",
+  "url": "https://ttu-ir.tdl.org/items/1922ad9f-ef4c-4f52-96a4-980c23debe5e",
+  "doi": null,
+  "kind": "paper"
+ },
+ {
+  "id": "olson-2017-pmma",
+  "title": "Microgravity flammability boundary for PMMA rods in axial stagnation flow",
+  "authors": "Olson, Ferkul",
+  "year": 2017,
+  "venue": "Combustion and Flame",
+  "url": null,
+  "doi": "10.1016/j.combustflame.2017.03.001",
+  "kind": "paper"
+ },
+ {
+  "id": "urban-2009-same",
+  "title": "Smoke Particle Sizes in Low-Gravity and Implications for Spacecraft Smoke Detector Design (SAE 2009-01-2468)",
+  "authors": "Urban et al.",
+  "year": 2009,
+  "venue": "SAE 2009-01-2468",
+  "url": "https://www.nist.gov/node/1863886",
+  "doi": null,
+  "kind": "paper"
+ },
+ {
+  "id": "same2-ntrs",
+  "title": "SAME-2 smoke particle results",
+  "authors": "Urban et al.",
+  "year": 2013,
+  "venue": "NASA NTRS 20130000422",
+  "url": "https://ntrs.nasa.gov/citations/20130000422",
+  "doi": null,
+  "kind": "report"
+ },
+ {
+  "id": "dehghani-2021-umd",
+  "title": "Burning in microgravity: Experimental results and analysis (BRE)",
+  "authors": "Dehghani, Sunderland, Quintiere, de Ris",
+  "year": 2021,
+  "venue": "Combustion and Flame",
+  "url": null,
+  "doi": "10.1016/j.combustflame.2021.01.035",
+  "kind": "paper"
+ },
+ {
+  "id": "dehghani-diss-umd",
+  "title": "Dehghani PhD dissertation, University of Maryland (BRE flammability map)",
+  "authors": "Dehghani",
+  "year": null,
+  "venue": "University of Maryland DRUM",
+  "url": "https://drum.lib.umd.edu/handle/1903/29303",
+  "doi": null,
+  "kind": "paper"
+ },
+ {
+  "id": "kim-2023-cfig",
+  "title": "Spherical gas-fueled cool diffusion flames",
+  "authors": "Kim, Waddell, Sunderland et al.",
+  "year": 2023,
+  "venue": "Proceedings of the Combustion Institute 39, 1647-1656",
+  "url": null,
+  "doi": "10.1016/j.proci.2022.07.015",
+  "kind": "paper"
+ },
+ {
+  "id": "dotson-spice",
+  "title": "Smoke points of microgravity and normal gravity coflow diffusion flames",
+  "authors": "Dotson, Sunderland, Yuan, Urban",
+  "year": null,
+  "venue": "University of Maryland DRUM",
+  "url": "https://drum.lib.umd.edu/handle/1903/13569",
+  "doi": null,
+  "kind": "paper"
+ },
+ {
+  "id": "debold-spice",
+  "title": "Laminar smoke points of coflowing diffusion flames in microgravity (UMD MS thesis)",
+  "authors": "DeBold",
+  "year": 2012,
+  "venue": "University of Maryland DRUM",
+  "url": "https://drum.lib.umd.edu/handle/1903/10005",
+  "doi": null,
+  "kind": "paper"
+ },
+ {
+  "id": "ma-2014-slice",
+  "title": "Experimental and computational study of microgravity sooting coflow flames (SLICE)",
+  "authors": "Ma, Cao, Giassi, Stocker, Takahashi, Bennett, Smooke, Long",
+  "year": 2014,
+  "venue": "NASA NTRS 20140017780",
+  "url": "https://ntrs.nasa.gov/citations/20140017780",
+  "doi": null,
+  "kind": "paper"
+ },
+ {
+  "id": "nasa-acme-article",
+  "title": "Space station's quest for the secrets of fire (NASA ACME article)",
+  "authors": null,
+  "year": null,
+  "venue": "NASA",
+  "url": "https://www.nasa.gov/humans-in-space/space-stations-quest-for-the-secrets-of-fire/",
+  "doi": null,
+  "kind": "web"
+ },
+ {
+  "id": "nasa-flame-design",
+  "title": "NASA Flame Design investigation page",
+  "authors": null,
+  "year": null,
+  "venue": "NASA Science",
+  "url": "https://science.nasa.gov/biological-physical/investigations/flame-design/",
+  "doi": null,
+  "kind": "web"
+ },
+ {
+  "id": "nasa-cld-flame",
+  "title": "NASA CLD Flame investigation page",
+  "authors": null,
+  "year": null,
+  "venue": "NASA Science",
+  "url": "https://science.nasa.gov/biological-physical/investigations/cld-flame/",
+  "doi": null,
+  "kind": "web"
+ },
+ {
+  "id": "nasa-e-field",
+  "title": "NASA E-FIELD Flames investigation page",
+  "authors": null,
+  "year": null,
+  "venue": "NASA Science",
+  "url": "https://science.nasa.gov/biological-physical/investigations/e-field-flames",
+  "doi": null,
+  "kind": "web"
+ },
+ {
+  "id": "nasa-s-flame",
+  "title": "NASA s-Flame investigation page",
+  "authors": null,
+  "year": null,
+  "venue": "NASA Science",
+  "url": "https://science.nasa.gov/biological-physical/investigations/s-flame/",
+  "doi": null,
+  "kind": "web"
+ },
+ {
+  "id": "scinapse-flex-cfd",
+  "title": "OpenFOAM cool flame modelling record (FLEX data context)",
+  "authors": null,
+  "year": null,
+  "venue": "Scinapse",
+  "url": "https://scinapse.io/papers/1974189763",
+  "doi": null,
+  "kind": "web"
+ },
+ {
+  "id": "buffalo-fgm",
+  "title": "Radiative flamelet-generated manifolds for solid fuel flame spread",
+  "authors": "Budzinski, Desjardin",
+  "year": null,
+  "venue": "University at Buffalo",
+  "url": "https://researchconnect.buffalo.edu/en/publications/radiative-flamelet-generated-manifolds-for-solid-fuel-flame-sprea/",
+  "doi": null,
+  "kind": "paper"
+ },
+ {
+  "id": "princeton-cool-counterflow",
+  "title": "The radical index and the effect of oxygen concentration on non-premixed cool flame extinction",
+  "authors": null,
+  "year": null,
+  "venue": "Princeton",
+  "url": "https://collaborate.princeton.edu/en/publications/the-radical-index-and-the-effect-of-oxygen-concentration-on-non-p/",
+  "doi": null,
+  "kind": "paper"
+ },
+ {
+  "id": "ntrs-20080012612",
+  "title": "SAME smoke particle and transport background (NTRS 20080012612)",
+  "authors": "Urban et al.",
+  "year": 2008,
+  "venue": "NASA NTRS",
+  "url": "https://ntrs.nasa.gov/api/citations/20080012612/downloads/20080012612.pdf",
+  "doi": null,
+  "kind": "report"
+ },
+ {
+  "id": "spinoff-air-tanks",
+  "title": "NASA Spinoff: air tanks derived from spacecraft technology",
+  "authors": null,
+  "year": null,
+  "venue": "NASA Spinoff",
+  "url": "https://spinoff.nasa.gov/node/9582",
+  "doi": null,
+  "kind": "web"
+ },
+ {
+  "id": "spinoff-fire-detector",
+  "title": "NASA Spinoff: fire detector",
+  "authors": null,
+  "year": null,
+  "venue": "NASA Spinoff",
+  "url": "https://spinoff.nasa.gov/node/9407",
+  "doi": null,
+  "kind": "web"
+ },
+ {
+  "id": "spinoff-firefighter-attire",
+  "title": "NASA Spinoff: firefighter attire",
+  "authors": null,
+  "year": null,
+  "venue": "NASA Spinoff",
+  "url": "https://spinoff.nasa.gov/node/9918",
+  "doi": null,
+  "kind": "web"
+ },
+ {
+  "id": "nasa-mist",
+  "title": "Fine water mist fire suppression (MIST, NTRS 20040053582)",
+  "authors": null,
+  "year": null,
+  "venue": "NASA NTRS",
+  "url": "https://ntrs.nasa.gov/citations/20040053582",
+  "doi": null,
+  "kind": "report"
+ }
+]

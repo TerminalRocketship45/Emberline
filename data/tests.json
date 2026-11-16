@@ -1,0 +1,1542 @@
+[
+ {
+  "investigationId": "PSI-159",
+  "testId": "21196 A1",
+  "fuel": "ethane",
+  "o2Pct": 21.0,
+  "pressurePsia": 16.0,
+  "ignited": false,
+  "outcome": "Failed to ignite",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21196 A2",
+  "fuel": "ethane",
+  "o2Pct": 21.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21196 F1",
+  "fuel": "ethane",
+  "o2Pct": 15.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Flow terminated; Not spherical shape",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21196 H1",
+  "fuel": "ethane",
+  "o2Pct": 12.0,
+  "pressurePsia": 16.0,
+  "ignited": false,
+  "outcome": "Not ignited",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21196 J1",
+  "fuel": "ethane",
+  "o2Pct": 13.5,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Self-extinguished; Flash ignition; Not lasted long",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21196 F2",
+  "fuel": "ethane",
+  "o2Pct": 15.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21196 F3",
+  "fuel": "ethane",
+  "o2Pct": 15.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Self-extinguished; Flash ignition; A flash and gone",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21196 F4",
+  "fuel": "ethane",
+  "o2Pct": 15.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Self-extinguished; Flash ignition; Not lasted long",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21196 F5",
+  "fuel": "ethane",
+  "o2Pct": 15.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Self-extinguished; Flash ignition; Not lasted long",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21196 F6",
+  "fuel": "ethane",
+  "o2Pct": 15.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Flow terminated; Repeat of F2",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21196 K1",
+  "fuel": "ethane",
+  "o2Pct": 15.0,
+  "pressurePsia": 7.2,
+  "ignited": true,
+  "outcome": "Self-extinguished; Flash ignition; Not lasted long",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21196 L1",
+  "fuel": "ethane",
+  "o2Pct": 21.0,
+  "pressurePsia": 7.2,
+  "ignited": true,
+  "outcome": "Self-extinguished; Flash ignition; Not lasted long",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21196 L2",
+  "fuel": "ethane",
+  "o2Pct": 21.0,
+  "pressurePsia": 7.2,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21196 M1",
+  "fuel": "ethane",
+  "o2Pct": 30.0,
+  "pressurePsia": 7.2,
+  "ignited": true,
+  "outcome": "Self-extinguished; Flash ignition; Not lasted long",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21196 M2",
+  "fuel": "ethane",
+  "o2Pct": 30.0,
+  "pressurePsia": 7.2,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21196 M2_1",
+  "fuel": "ethane",
+  "o2Pct": 30.0,
+  "pressurePsia": 7.2,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21202 A1",
+  "fuel": "ethane",
+  "o2Pct": 85.0,
+  "pressurePsia": 32.0,
+  "ignited": false,
+  "outcome": "No ignition",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21202 A2",
+  "fuel": "ethane",
+  "o2Pct": 85.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Self-extinguished; Ignited, but lasted short.",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21202 A3",
+  "fuel": "ethane",
+  "o2Pct": 85.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21202 A4",
+  "fuel": "ethane",
+  "o2Pct": 85.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21202 H1",
+  "fuel": "ethane",
+  "o2Pct": 85.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21202 H2",
+  "fuel": "ethane",
+  "o2Pct": 85.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21202 H3",
+  "fuel": "ethane",
+  "o2Pct": 85.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Flow terminated; Flow timed out",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21202 H4",
+  "fuel": "ethane",
+  "o2Pct": 85.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21202 J1",
+  "fuel": "ethane",
+  "o2Pct": 85.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21202 K1",
+  "fuel": "ethane",
+  "o2Pct": 85.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21202 K2",
+  "fuel": "ethane",
+  "o2Pct": 85.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21202 L1",
+  "fuel": "ethane",
+  "o2Pct": 85.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21209 A1",
+  "fuel": "ethane",
+  "o2Pct": 85.0,
+  "pressurePsia": 8.0,
+  "ignited": true,
+  "outcome": "Flow terminated; Burner T limit, most images lost",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21209 A2",
+  "fuel": "ethane",
+  "o2Pct": 85.0,
+  "pressurePsia": 8.0,
+  "ignited": false,
+  "outcome": "Aborted",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21209 A3",
+  "fuel": "ethane",
+  "o2Pct": 85.0,
+  "pressurePsia": 8.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21209 B1",
+  "fuel": "ethane",
+  "o2Pct": 85.0,
+  "pressurePsia": 8.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21209 A4",
+  "fuel": "ethane",
+  "o2Pct": 85.0,
+  "pressurePsia": 8.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21209 H1",
+  "fuel": "ethane",
+  "o2Pct": 50.0,
+  "pressurePsia": 8.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21209 J1",
+  "fuel": "ethane",
+  "o2Pct": 30.0,
+  "pressurePsia": 8.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21209 F1",
+  "fuel": "ethane",
+  "o2Pct": 21.0,
+  "pressurePsia": 8.0,
+  "ignited": true,
+  "outcome": "Flow terminated; Not round shape",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21209 F2",
+  "fuel": "ethane",
+  "o2Pct": 21.0,
+  "pressurePsia": 8.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21209 F3",
+  "fuel": "ethane",
+  "o2Pct": 21.0,
+  "pressurePsia": 8.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21209 B2",
+  "fuel": "ethane",
+  "o2Pct": 85.0,
+  "pressurePsia": 8.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21209 K1",
+  "fuel": "ethane",
+  "o2Pct": 18.0,
+  "pressurePsia": 8.0,
+  "ignited": true,
+  "outcome": "Flow terminated; Timed out",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21216 A1",
+  "fuel": "ethane",
+  "o2Pct": 85.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21216 A2",
+  "fuel": "ethane",
+  "o2Pct": 85.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21216 A3",
+  "fuel": "ethane",
+  "o2Pct": 85.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21216 A4",
+  "fuel": "ethane",
+  "o2Pct": 85.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21216 A5",
+  "fuel": "ethane",
+  "o2Pct": 85.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Self-extinguished; Flash ignition",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21216 A6",
+  "fuel": "ethane",
+  "o2Pct": 85.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21216 B1",
+  "fuel": "ethane",
+  "o2Pct": 85.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21216 C1",
+  "fuel": "ethane",
+  "o2Pct": 50.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21216 F1",
+  "fuel": "ethane",
+  "o2Pct": 21.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21216 H1",
+  "fuel": "ethane",
+  "o2Pct": 85.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21216 H2",
+  "fuel": "ethane",
+  "o2Pct": 85.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21216 J1",
+  "fuel": "ethane",
+  "o2Pct": 50.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21216 K1",
+  "fuel": "ethane",
+  "o2Pct": 21.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21222 A1",
+  "fuel": "propane",
+  "o2Pct": 85.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21222 A2",
+  "fuel": "propane",
+  "o2Pct": 85.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21222 A3",
+  "fuel": "propane",
+  "o2Pct": 85.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21222 A4",
+  "fuel": "propane",
+  "o2Pct": 85.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21222 A5",
+  "fuel": "propane",
+  "o2Pct": 85.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21222 B1",
+  "fuel": "propane",
+  "o2Pct": 85.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21222 C1",
+  "fuel": "propane",
+  "o2Pct": 50.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21222 C2",
+  "fuel": "propane",
+  "o2Pct": 50.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21222 F1",
+  "fuel": "propane",
+  "o2Pct": 21.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21222 F2",
+  "fuel": "propane",
+  "o2Pct": 21.0,
+  "pressurePsia": 48.0,
+  "ignited": false,
+  "outcome": "No ignition",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21228 A1",
+  "fuel": "propane",
+  "o2Pct": 85.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21228 A2",
+  "fuel": "propane",
+  "o2Pct": 85.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21228 A3",
+  "fuel": "propane",
+  "o2Pct": 85.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21228 A4",
+  "fuel": "propane",
+  "o2Pct": 85.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21228 B1",
+  "fuel": "propane",
+  "o2Pct": 85.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21228 C1",
+  "fuel": "propane",
+  "o2Pct": 50.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21228 C2",
+  "fuel": "propane",
+  "o2Pct": 50.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21228 C3",
+  "fuel": "propane",
+  "o2Pct": 50.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21228 C4",
+  "fuel": "propane",
+  "o2Pct": 50.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21228 F1",
+  "fuel": "propane",
+  "o2Pct": 21.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21228 H1",
+  "fuel": "propane",
+  "o2Pct": 85.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21228 H2",
+  "fuel": "propane",
+  "o2Pct": 85.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21228 J1",
+  "fuel": "propane",
+  "o2Pct": 85.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21228 K1",
+  "fuel": "propane",
+  "o2Pct": 50.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21228 K2",
+  "fuel": "propane",
+  "o2Pct": 50.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21228 L1",
+  "fuel": "propane",
+  "o2Pct": 21.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21228 L2",
+  "fuel": "propane",
+  "o2Pct": 21.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21235 A1",
+  "fuel": "propane",
+  "o2Pct": 85.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21235 A2",
+  "fuel": "propane",
+  "o2Pct": 85.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21235 C1",
+  "fuel": "propane",
+  "o2Pct": 50.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21235 F1",
+  "fuel": "propane",
+  "o2Pct": 21.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21235 F2",
+  "fuel": "propane",
+  "o2Pct": 21.0,
+  "pressurePsia": 16.0,
+  "ignited": false,
+  "outcome": null,
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21235 H1",
+  "fuel": "propane",
+  "o2Pct": 18.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21235 J1",
+  "fuel": "propane",
+  "o2Pct": 19.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21235 B1",
+  "fuel": "propane",
+  "o2Pct": 85.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21235 K1",
+  "fuel": "propane",
+  "o2Pct": 85.0,
+  "pressurePsia": 8.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21235 L1",
+  "fuel": "propane",
+  "o2Pct": 85.0,
+  "pressurePsia": 8.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21242 A1",
+  "fuel": "propane",
+  "o2Pct": 85.0,
+  "pressurePsia": 8.0,
+  "ignited": true,
+  "outcome": "Flow terminated; Terminated by burner temp hit the limit.",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21242 P1",
+  "fuel": "propane",
+  "o2Pct": 30.0,
+  "pressurePsia": 8.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21242 F2",
+  "fuel": "propane",
+  "o2Pct": 21.0,
+  "pressurePsia": 8.0,
+  "ignited": false,
+  "outcome": "F1 was aborted, and F2 did not ignite.",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21242 F3",
+  "fuel": "propane",
+  "o2Pct": 21.0,
+  "pressurePsia": 8.0,
+  "ignited": false,
+  "outcome": null,
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21242 F4",
+  "fuel": "propane",
+  "o2Pct": 21.0,
+  "pressurePsia": 8.0,
+  "ignited": false,
+  "outcome": null,
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21242 P2",
+  "fuel": "propane",
+  "o2Pct": 30.0,
+  "pressurePsia": 8.0,
+  "ignited": false,
+  "outcome": "Most data lost this day.",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21256 A1",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21256 A2",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21256 A3",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21256 A4",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21256 A5",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21256 C1",
+  "fuel": "butane",
+  "o2Pct": 50.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21256 F1",
+  "fuel": "butane",
+  "o2Pct": 21.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21256 B1",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21256 C2",
+  "fuel": "butane",
+  "o2Pct": 50.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Self-extinguished; No nitrogen flowed. This repeats A3.",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21256 H1",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21256 H2",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21256 H3",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21256 H4",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21256 H5",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21256 K1",
+  "fuel": "butane",
+  "o2Pct": 50.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21256 M1",
+  "fuel": "butane",
+  "o2Pct": 21.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Self-extinguished; Flash",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21256 J1",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 32.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21265 A1",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21265 A2",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21265 A3",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Self-extinguished; Flash",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21265 A4",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Self-extinguished; Flash",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21265 A5",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21265 C1",
+  "fuel": "butane",
+  "o2Pct": 50.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21265 C2",
+  "fuel": "butane",
+  "o2Pct": 50.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21265 C3",
+  "fuel": "butane",
+  "o2Pct": 50.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21265 F1",
+  "fuel": "butane",
+  "o2Pct": 21.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21265 F2",
+  "fuel": "butane",
+  "o2Pct": 21.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Flow terminated; Not spherical shape flame",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21265 F3",
+  "fuel": "butane",
+  "o2Pct": 21.0,
+  "pressurePsia": 48.0,
+  "ignited": false,
+  "outcome": "No ignition",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21265 F4",
+  "fuel": "butane",
+  "o2Pct": 21.0,
+  "pressurePsia": 48.0,
+  "ignited": false,
+  "outcome": "No ignition",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21265 H1",
+  "fuel": "butane",
+  "o2Pct": 40.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21265 H2",
+  "fuel": "butane",
+  "o2Pct": 40.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21265 J1",
+  "fuel": "butane",
+  "o2Pct": 70.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21265 K1",
+  "fuel": "butane",
+  "o2Pct": 45.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21265 H3",
+  "fuel": "butane",
+  "o2Pct": 40.0,
+  "pressurePsia": 48.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21270 A1",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21270 A2",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21270 A3",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21270 A4",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21270 C1",
+  "fuel": "butane",
+  "o2Pct": 50.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21270 H1",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21270 H2",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21270 H3",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21270 H4",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21270 H5",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 16.0,
+  "ignited": true,
+  "outcome": "Self-extinguished",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21277 A1",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 8.0,
+  "ignited": true,
+  "outcome": "Flow terminated; hit the temperature limit",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21277 H1",
+  "fuel": "butane",
+  "o2Pct": 50.0,
+  "pressurePsia": 8.0,
+  "ignited": true,
+  "outcome": "Flow terminated; hit the temperature limit",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21277 J1",
+  "fuel": "butane",
+  "o2Pct": 21.0,
+  "pressurePsia": 8.0,
+  "ignited": false,
+  "outcome": "No ignition",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21277 K1",
+  "fuel": "butane",
+  "o2Pct": 30.0,
+  "pressurePsia": 8.0,
+  "ignited": false,
+  "outcome": "No ignition",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21277 K2",
+  "fuel": "butane",
+  "o2Pct": 30.0,
+  "pressurePsia": 8.0,
+  "ignited": true,
+  "outcome": "Flow terminated; different N2 ig delta.",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21277 J2",
+  "fuel": "butane",
+  "o2Pct": 21.0,
+  "pressurePsia": 8.0,
+  "ignited": false,
+  "outcome": "No ignition",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21277 C1",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 8.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21277 C2",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 8.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21277 L1",
+  "fuel": "butane",
+  "o2Pct": 50.0,
+  "pressurePsia": 8.0,
+  "ignited": true,
+  "outcome": "Flow terminated; hit the temperature limit",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21277 F1",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 8.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21277 F2",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 8.0,
+  "ignited": true,
+  "outcome": "Flow terminated",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21277 M1",
+  "fuel": "butane",
+  "o2Pct": 85.0,
+  "pressurePsia": 8.0,
+  "ignited": true,
+  "outcome": "Flow terminated; hit the temperature limit",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21277 N1",
+  "fuel": "butane",
+  "o2Pct": 50.0,
+  "pressurePsia": 8.0,
+  "ignited": true,
+  "outcome": "Flow terminated; hit the temperature limit",
+  "flameType": "inverse"
+ },
+ {
+  "investigationId": "PSI-159",
+  "testId": "21277 P1",
+  "fuel": "butane",
+  "o2Pct": 30.0,
+  "pressurePsia": 8.0,
+  "ignited": true,
+  "outcome": "Flow terminated; hit the temperature limit",
+  "flameType": "inverse"
+ }
+]

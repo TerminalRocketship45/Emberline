@@ -1,0 +1,247 @@
+32.79 GB
+PSI-100
+Version 4
+Spacecraft Fire Experiment-III(SAFFIRE-III)
+Investigation
+Submitted Date:
+18-Sep-2024
+Initial Release
+Date:
+18-Sep-2024
+DOI: 10.60555/040q-4h36
+Research Area: Combustion Science
+SubResearch Area: Spacecraft Fire Safety
+Related Investigation: PSI-99, PSI-98
+License: CC0-1.0
+Project
+Project Type
+Microgravity Investigation
+Flight Platform
+International Space Station (ISS)
+Investigation Start Date
+04-18-2017
+Sponsoring Agency
+National Aeronautics and Space Administration (NASA)
+NASA Center
+Glenn Research Center (GRC)
+Objectives
+The objectives of this investigation were to:
+(1) determine how rapidly a large scale fire grows in low-gravity and (2) investigate the low-g flammability
+limits compared to those obtained in NASA’s normal gravity material flammability screening test.
+Approach
+The Saffire-III experiments were performed on the Orbital Science’s Cygnus resupply vehicle after it
+deberthed from the ISS. As a follow on to the Saffire 1 investigation, the Saffire III investigation also used
+SIBAL as the sample material. However, the experiments were conducted at a flow velocity of 30 cm/s
+compared to 20 cm/s during Saffire I. The flow was either concurrent or opposed. Once the sample was
+ignited flame images were captured using two cameras. In addition, thermocouples provided flow, flame, and
+plume temperatures, two radiometers recorded flame radiation, solid state sensors were used to measure
+pressure, CO2 and O2 mole faction, and two anemometer tracked flow velocity. All data was compressed,
+and subsequently downlinked. Details related to samples and experimental parameters are provided in the
+Experimental Details file in the Science document folder.
+Hypothesis
+This investigation hypothesizes that due to large differences between fire behavior in normal and reduced
+gravity, the use of terrestrial fires and fire standards to design spacecraft fire safety systems presents an
+inherent risk to the vehicle because of the significant level of uncertainty. While this approach has been
+successful thus far, the uncertainty and risk will increase as exploration missions venture further from earth
+with considerably longer transit times for a safe return. There is a significant lack of microgravity data
+available for spacecraft designers on which to base their fire safety designs and procedures. To address this
+knowledge gap, this investigation proposed to conduct large-scale fire safety experiments in an expendable
+spacecraft without risk to a crew.
+Research Impacts/Earth Benefits
+The Saffire-I experiment provides a new way to study a realistic fire on an exploration vehicle, which has not
+been possible in the past because the risks are too high. Instruments on an unmanned cargo vessel
+measure oxygen, carbon dioxide, heat, pressure and flame growth, and two video cameras provide views of
+the flame. Results determine microgravity flammability limits for several spacecraft materials, help to validate
+NASA’s material selection criteria, and how microgravity and limited oxygen affect flame size. The
+notifications
+share
+Cite this Investigation
+info
+Description
+Physical Sciences Informatics
+Home
+Contact Us
+Data & Tools
+menu_open
+Search Bar
+info
+Description
+table_view
+Experimental Table
+table_view
+Modeling Table
+menu_book
+Read Me
+pallet
+Hardware
+image
+Representative Ima
+sim_card_download
+Data files and docu
+menu_book
+Publications
+view_timeline
+Version History
+Your download's being scanned. We'll let you
+know if there's an issue.
+11/15/26, 5:59 PM
+NASA PSI: PSI-100
+https://psi.nasa.gov/physci/repo/data/investigations/PSI-100
+1/4
+
+investigation is crucial for the safety of current and future space missions. Studying fire in small, sealed
+environments such as the Cygnus cargo supply vehicle benefits fire safety and prevention efforts on Earth,
+including inside mines, airplanes, or submarines.
+Contact(s)
+David L. Urbanemail
+
+
+Sample Number
+Material
+Sample Thickness
+Sample Length
+Sample Width
+S1
+SIBAL Fabric
+.33 cm
+94 cm
+40.6 cm
+S2
+SIBAL Fabric
+.33 cm
+94 cm
+40.6 cm
+Items per page:
+1 – 3 of 3
+No associated Modeling Table
+No associated Read me file
+Saffire III enclosure in Cygnus
+No associated investigation representative image(s).
+Selected: 87
+Investigation Files
+table_view
+Experimental Table
+Select Experimental Table
+Filter
+5
+table_view
+Modeling Table
+menu_book
+Read Me
+pallet
+Hardware
+image
+Representative Images/Videos
+sim_card_download
+Data files and documents
+cloud_download Download
+folder_zipDownload Zip
+Identifier
+menu_open
+Search Bar
+Your download's being scanned. We'll let you
+know if there's an issue.
+11/15/26, 5:59 PM
+NASA PSI: PSI-100
+https://psi.nasa.gov/physci/repo/data/investigations/PSI-100
+2/4
+
+File/Directory Name
+Size
+Date AddedView Content
+PSI-100
+Investigation Metadata Files
+Engineering Documents
+Presentations
+Raw Data
+Science Documents
+Experimental table
+Buoyant Effects on the Flammability of Silicone Samples Planned for the
+Spacecraft Fire Experiment (Saffire), 45th International Conference on
+Environmental Systems ICES-2015-[293] 12-16 July 2015, Bellevue, Washington
+Authors: JE Niehaus, PV Ferkul, SA Gokoglu, GA Ruff
+The Spacecraft Fire Experiment (Saffire) - Objectives, Development and Status
+Authors: W Schoren, GA Ruff, DL Urban
+Operation and Development Status of the Spacecraft Fire Experiments (Saffire),
+46th International Conference on Environmental Systems (ICES), July 2016
+Authors: https://ntrs.nasa.gov/citations/20170000230
+Selected Version
+Version 4
+Updated Date: 05-
+Jun-2025
+Changes: Metadata
+update
+Files Added (85)
+PSI-100_Engineering
+Documents_SAFFIRE
+Offgassing Testing
+Strategy.pdf
+PSI-
+100_Presentations_S
+AFFIRE_45 I Con of
+Env Sys
+presentation.pdf
+PSI-
+100_Presentations_S
+AFFIRE_46th I Con of
+Env Sys
+presentation.pdf
+Show More...
+Files Removed
+(97)
+SAFFIRE Obj, Dev,
+and Status.pdf
+SAFFIRE
+Offgassing Testing
+Strategy.pdf
+SAFFIRE_45 I Con
+of Env Sys
+presentation.pdf
+Show More...
+Files Updated
+(1)
+PSI-
+100_metadata_PSI-
+168_SAFFIRE-
+III.zip
+.
+Show/Hide All Version Information
+Search Files
+search
+menu_book
+Publications
+view_timeline
+Version History
+menu_open
+Search Bar
+Your download's being scanned. We'll let you
+know if there's an issue.
+11/15/26, 5:59 PM
+NASA PSI: PSI-100
+https://psi.nasa.gov/physci/repo/data/investigations/PSI-100
+3/4
+
+CONTACTS
+NASA Official: Jonathan Galazka
+SITE INFORMATION
+ NASA Privacy Policy and Notices
+OTHER RESOURCES
+ PSI
+ NASA BPS
+NASA 
+|
+ No Fear Act 
+|
+ FOIA 
+|
+ USA.gov 
+|
+ Accessibility
+menu_open
+Search Bar
+Your download's being scanned. We'll let you
+know if there's an issue.
+11/15/26, 5:59 PM
+NASA PSI: PSI-100
+https://psi.nasa.gov/physci/repo/data/investigations/PSI-100
+4/4

@@ -1,0 +1,835 @@
+[
+  {
+    "question": "What did Saffire learn about large fires in microgravity?",
+    "habitatId": "iss",
+    "answer": {
+      "question": "What did Saffire learn about large fires in microgravity?",
+      "retrieved": [
+        {
+          "id": "psi-98-c4",
+          "title": "SAFFIRE-I: Hypothesis",
+          "score": 8.988
+        },
+        {
+          "id": "psi-100-c3",
+          "title": "SAFFIRE-III: Hypothesis",
+          "score": 8.988
+        },
+        {
+          "id": "psi-99-c4",
+          "title": "SAFFIRE-II: Hypothesis",
+          "score": 7.816
+        },
+        {
+          "id": "chunk-f-saffire-spread",
+          "title": "Finding: saffire spread",
+          "score": 7.603
+        },
+        {
+          "id": "psi-98-c2",
+          "title": "SAFFIRE-I: Approach",
+          "score": 6.676
+        },
+        {
+          "id": "psi-98-c6",
+          "title": "SAFFIRE-I: Publications and data",
+          "score": 6.112
+        },
+        {
+          "id": "psi-98-c1",
+          "title": "SAFFIRE-I: Objectives",
+          "score": 6.11
+        },
+        {
+          "id": "habitat:iss",
+          "title": "Selected habitat: International Space Station cabin",
+          "score": 0
+        }
+      ],
+      "passages": {
+        "psi-98-c4": {
+          "sourceId": "psi-98",
+          "investigationId": "PSI-98",
+          "title": "NASA PSI-98: SAFFIRE-I: Spacecraft Fire Safety Experiment-I",
+          "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-98",
+          "doi": "10.60555/0t15-1z43"
+        },
+        "psi-100-c3": {
+          "sourceId": "psi-100",
+          "investigationId": "PSI-100",
+          "title": "NASA PSI-100: SAFFIRE-III: Spacecraft Fire Experiment-III",
+          "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-100",
+          "doi": "10.60555/040q-4h36"
+        },
+        "psi-99-c4": {
+          "sourceId": "psi-99",
+          "investigationId": "PSI-99",
+          "title": "NASA PSI-99: SAFFIRE-II: Spacecraft Fire Experiment-II",
+          "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-99",
+          "doi": "10.60555/2chp-m469"
+        },
+        "chunk-f-saffire-spread": {
+          "sourceId": "urban-2017-asgsr",
+          "investigationId": "PSI-98",
+          "title": "Saffire: results from the first three flights (ASGSR 2017, Table 1)",
+          "url": "https://ntrs.nasa.gov/citations/20180005168",
+          "doi": null
+        },
+        "psi-98-c2": {
+          "sourceId": "psi-98",
+          "investigationId": "PSI-98",
+          "title": "NASA PSI-98: SAFFIRE-I: Spacecraft Fire Safety Experiment-I",
+          "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-98",
+          "doi": "10.60555/0t15-1z43"
+        },
+        "psi-98-c6": {
+          "sourceId": "psi-98",
+          "investigationId": "PSI-98",
+          "title": "NASA PSI-98: SAFFIRE-I: Spacecraft Fire Safety Experiment-I",
+          "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-98",
+          "doi": "10.60555/0t15-1z43"
+        },
+        "psi-98-c1": {
+          "sourceId": "psi-98",
+          "investigationId": "PSI-98",
+          "title": "NASA PSI-98: SAFFIRE-I: Spacecraft Fire Safety Experiment-I",
+          "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-98",
+          "doi": "10.60555/0t15-1z43"
+        },
+        "habitat:iss": {
+          "sourceId": "olson-2008-tm",
+          "investigationId": null,
+          "title": "Material flammability in microgravity and partial-pressure atmospheres (NASA/TM-2008-215260, SAE 2008-01-2055)",
+          "url": "https://ntrs.nasa.gov/citations/20080034883",
+          "doi": null
+        }
+      },
+      "sentences": [
+        {
+          "text": "The Saffire investigations aimed to determine how rapidly a large-scale fire grows in low-gravity and to compare low-g flammability limits to normal gravity material flammability screening tests.",
+          "citations": [
+            "psi-98-c1"
+          ],
+          "supported": true
+        },
+        {
+          "text": "During microgravity fabric burns of SIBAL fabric (40.6 by 94 cm in air at about 21.5 percent O2 and 1 atm), concurrent-flow flame spread reached a steady rate of 1.8 mm/s in Saffire-I under a 20 cm/s duct flow.",
+          "citations": [
+            "chunk-f-saffire-spread"
+          ],
+          "supported": true
+        },
+        {
+          "text": "In Saffire-III, under a 25 cm/s flow, the steady flame spread rate was measured at 2.3 mm/s.",
+          "citations": [
+            "chunk-f-saffire-spread"
+          ],
+          "supported": true
+        },
+        {
+          "text": "By contrast, the same sample burns completely and the fire accelerates in 1 g normal gravity.",
+          "citations": [
+            "chunk-f-saffire-spread"
+          ],
+          "supported": true
+        }
+      ],
+      "mode": "llm",
+      "model": "gemini-3.5-flash",
+      "verifiedCitations": 4,
+      "totalCitations": 4,
+      "latencyMs": 1691,
+      "note": null,
+      "generatedBy": "gemini-3.5-flash"
+    }
+  },
+  {
+    "question": "How small are smoke particles in microgravity and why does it matter for detectors?",
+    "habitatId": "iss",
+    "answer": {
+      "question": "How small are smoke particles in microgravity and why does it matter for detectors?",
+      "retrieved": [
+        {
+          "id": "psi-102-c4",
+          "title": "SAME: Hypothesis",
+          "score": 11.582
+        },
+        {
+          "id": "psi-101-c3",
+          "title": "SAME-R: Hypothesis",
+          "score": 11.214
+        },
+        {
+          "id": "psi-115-summary",
+          "title": "SAME sim: summary",
+          "score": 7.933
+        },
+        {
+          "id": "chunk-f-same-sizes",
+          "title": "Finding: same sizes",
+          "score": 7.739
+        },
+        {
+          "id": "psi-101-c1",
+          "title": "SAME-R: Objectives",
+          "score": 7.595
+        },
+        {
+          "id": "psi-102-c5",
+          "title": "SAME: Research Impacts/Earth Benefits",
+          "score": 6.616
+        },
+        {
+          "id": "psi-101-c4",
+          "title": "SAME-R: Research Impacts/Earth Benefits",
+          "score": 6.478
+        },
+        {
+          "id": "habitat:iss",
+          "title": "Selected habitat: International Space Station cabin",
+          "score": 0
+        }
+      ],
+      "passages": {
+        "psi-102-c4": {
+          "sourceId": "psi-102",
+          "investigationId": "PSI-102",
+          "title": "NASA PSI-102: SAME: Smoke and Aerosol Measurement Experiment",
+          "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-102",
+          "doi": "10.60555/gd4k-8h62"
+        },
+        "psi-101-c3": {
+          "sourceId": "psi-101",
+          "investigationId": "PSI-101",
+          "title": "NASA PSI-101: SAME-R: Smoke Aerosol Measurement Experiment-Reflight",
+          "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+          "doi": "10.60555/2np7-jv14"
+        },
+        "psi-115-summary": {
+          "sourceId": "ntrs-20080012612",
+          "investigationId": "PSI-115",
+          "title": "SAME smoke particle and transport background (NTRS 20080012612)",
+          "url": "https://ntrs.nasa.gov/api/citations/20080012612/downloads/20080012612.pdf",
+          "doi": null
+        },
+        "chunk-f-same-sizes": {
+          "sourceId": "urban-2009-same",
+          "investigationId": "PSI-115",
+          "title": "Smoke Particle Sizes in Low-Gravity and Implications for Spacecraft Smoke Detector Design (SAE 2009-01-2468)",
+          "url": "https://www.nist.gov/node/1863886",
+          "doi": null
+        },
+        "psi-101-c1": {
+          "sourceId": "psi-101",
+          "investigationId": "PSI-101",
+          "title": "NASA PSI-101: SAME-R: Smoke Aerosol Measurement Experiment-Reflight",
+          "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+          "doi": "10.60555/2np7-jv14"
+        },
+        "psi-102-c5": {
+          "sourceId": "psi-102",
+          "investigationId": "PSI-102",
+          "title": "NASA PSI-102: SAME: Smoke and Aerosol Measurement Experiment",
+          "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-102",
+          "doi": "10.60555/gd4k-8h62"
+        },
+        "psi-101-c4": {
+          "sourceId": "psi-101",
+          "investigationId": "PSI-101",
+          "title": "NASA PSI-101: SAME-R: Smoke Aerosol Measurement Experiment-Reflight",
+          "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-101",
+          "doi": "10.60555/2np7-jv14"
+        },
+        "habitat:iss": {
+          "sourceId": "olson-2008-tm",
+          "investigationId": null,
+          "title": "Material flammability in microgravity and partial-pressure atmospheres (NASA/TM-2008-215260, SAE 2008-01-2055)",
+          "url": "https://ntrs.nasa.gov/citations/20080034883",
+          "doi": null
+        }
+      },
+      "sentences": [
+        {
+          "text": "Smoke from overheated spacecraft materials in low gravity is sub-micron, with a substantial fraction of particles below 500 nm in SAME and most average sizes ranging from 200 to 400 nm in SAME-2.",
+          "citations": [
+            "psi-115-summary",
+            "chunk-f-same-sizes"
+          ],
+          "supported": true
+        },
+        {
+          "text": "In a microgravity environment without strong buoyancy-induced flows, smoke particle growth from pyrolyzing or smoldering sources leads to larger particles compared to those produced in 1g due to nucleation, condensation, and coagulation.",
+          "citations": [
+            "psi-102-c4",
+            "psi-101-c3"
+          ],
+          "supported": true
+        },
+        {
+          "text": "This change in size distribution and number density affects the response of smoke detectors and can possibly result in some detectors failing to produce an alarm when exposed to this smoke.",
+          "citations": [
+            "psi-102-c4",
+            "psi-101-c3"
+          ],
+          "supported": true
+        }
+      ],
+      "mode": "llm",
+      "model": "gemini-flash-lite-latest",
+      "verifiedCitations": 6,
+      "totalCitations": 6,
+      "latencyMs": 956,
+      "note": "Primary model unavailable, answered by gemini-flash-lite-latest.",
+      "generatedBy": "gemini-flash-lite-latest"
+    }
+  },
+  {
+    "question": "How fast do flames spread over thin fabrics in space?",
+    "habitatId": "iss",
+    "answer": {
+      "question": "How fast do flames spread over thin fabrics in space?",
+      "retrieved": [
+        {
+          "id": "chunk-f-spread-multiplier",
+          "title": "Finding: spread multiplier",
+          "score": 9.794
+        },
+        {
+          "id": "psi-26-c2",
+          "title": "BASS: Approach",
+          "score": 7.657
+        },
+        {
+          "id": "psi-26-c7",
+          "title": "BASS: Publications and data",
+          "score": 7.56
+        },
+        {
+          "id": "chunk-f-lunar-spread",
+          "title": "Finding: lunar spread",
+          "score": 7.22
+        },
+        {
+          "id": "chunk-f-saffire-spread",
+          "title": "Finding: saffire spread",
+          "score": 7.155
+        },
+        {
+          "id": "psi-26-c3",
+          "title": "BASS: Approach",
+          "score": 6.78
+        },
+        {
+          "id": "psi-25-c7",
+          "title": "BASS-II: Publications and data",
+          "score": 6.105
+        },
+        {
+          "id": "habitat:iss",
+          "title": "Selected habitat: International Space Station cabin",
+          "score": 0
+        }
+      ],
+      "passages": {
+        "chunk-f-spread-multiplier": {
+          "sourceId": "olson-2008-tm",
+          "investigationId": null,
+          "title": "Material flammability in microgravity and partial-pressure atmospheres (NASA/TM-2008-215260, SAE 2008-01-2055)",
+          "url": "https://ntrs.nasa.gov/citations/20080034883",
+          "doi": null
+        },
+        "psi-26-c2": {
+          "sourceId": "psi-26",
+          "investigationId": "PSI-26",
+          "title": "NASA PSI-26: BASS: Burning and Suppression of Solids",
+          "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-26",
+          "doi": "10.60555/58h4-dy80"
+        },
+        "psi-26-c7": {
+          "sourceId": "psi-26",
+          "investigationId": "PSI-26",
+          "title": "NASA PSI-26: BASS: Burning and Suppression of Solids",
+          "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-26",
+          "doi": "10.60555/58h4-dy80"
+        },
+        "chunk-f-lunar-spread": {
+          "sourceId": "ferkul-2026-lpsc",
+          "investigationId": null,
+          "title": "Material Flammability at Lunar and Martian Gravity (LPSC 2026)",
+          "url": "https://ntrs.nasa.gov/citations/20260001966",
+          "doi": null
+        },
+        "chunk-f-saffire-spread": {
+          "sourceId": "urban-2017-asgsr",
+          "investigationId": "PSI-98",
+          "title": "Saffire: results from the first three flights (ASGSR 2017, Table 1)",
+          "url": "https://ntrs.nasa.gov/citations/20180005168",
+          "doi": null
+        },
+        "psi-26-c3": {
+          "sourceId": "psi-26",
+          "investigationId": "PSI-26",
+          "title": "NASA PSI-26: BASS: Burning and Suppression of Solids",
+          "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-26",
+          "doi": "10.60555/58h4-dy80"
+        },
+        "psi-25-c7": {
+          "sourceId": "psi-25",
+          "investigationId": "PSI-25",
+          "title": "NASA PSI-25: BASS-II: Burning and Suppression of Solids II",
+          "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
+          "doi": "10.60555/4qc4-de67"
+        },
+        "habitat:iss": {
+          "sourceId": "olson-2008-tm",
+          "investigationId": null,
+          "title": "Material flammability in microgravity and partial-pressure atmospheres (NASA/TM-2008-215260, SAE 2008-01-2055)",
+          "url": "https://ntrs.nasa.gov/citations/20080034883",
+          "doi": null
+        }
+      },
+      "sentences": [
+        {
+          "text": "For thin fabrics at 34 percent O2 and 8.2 psia, model estimates indicate flames spread about 1.5 to 1.8 times faster than in ISS air.",
+          "citations": [
+            "chunk-f-spread-multiplier"
+          ],
+          "supported": true
+        },
+        {
+          "text": "During large Saffire fabric burns in microgravity with air at about 21.5 percent O2 and 1 atm, concurrent-flow flame spread reached a measured steady rate of 1.8 mm/s in Saffire-I and 2.3 mm/s in Saffire-III.",
+          "citations": [
+            "chunk-f-saffire-spread"
+          ],
+          "supported": true
+        },
+        {
+          "text": "Downward flame spread over SIBAL fabric at lunar gravity was measured at 0.11 cm/s in a centrifuge drop test and 0.086 cm/s in parabolic aircraft flight.",
+          "citations": [
+            "chunk-f-lunar-spread"
+          ],
+          "supported": true
+        }
+      ],
+      "mode": "llm",
+      "model": "gemini-flash-lite-latest",
+      "verifiedCitations": 3,
+      "totalCitations": 3,
+      "latencyMs": 1058,
+      "note": "Primary model unavailable, answered by gemini-flash-lite-latest.",
+      "generatedBy": "gemini-flash-lite-latest"
+    }
+  },
+  {
+    "question": "Is a 34% oxygen lunar habitat more flammable than the ISS?",
+    "habitatId": "exploration",
+    "answer": {
+      "question": "Is a 34% oxygen lunar habitat more flammable than the ISS?",
+      "retrieved": [
+        {
+          "id": "chunk-f-o2-fraction",
+          "title": "Finding: o2 fraction",
+          "score": 13.935
+        },
+        {
+          "id": "chunk-f-test1-not-conservative",
+          "title": "Finding: test1 not conservative",
+          "score": 4.752
+        },
+        {
+          "id": "chunk-f-spread-multiplier",
+          "title": "Finding: spread multiplier",
+          "score": 1.983
+        },
+        {
+          "id": "chunk-f-exploration-atmosphere",
+          "title": "Finding: exploration atmosphere",
+          "score": 16.908
+        },
+        {
+          "id": "chunk-f-lunar-most-flammable",
+          "title": "Finding: lunar most flammable",
+          "score": 19.382
+        },
+        {
+          "id": "chunk-f-fm2",
+          "title": "Finding: fm2",
+          "score": 15.071
+        },
+        {
+          "id": "chunk-f-lunar-spread",
+          "title": "Finding: lunar spread",
+          "score": 12.055
+        },
+        {
+          "id": "habitat:exploration",
+          "title": "Selected habitat: Exploration atmosphere (HLS, lunar habitat, pressurized rover)",
+          "score": 0
+        }
+      ],
+      "passages": {
+        "chunk-f-o2-fraction": {
+          "sourceId": "harper-2016-moc",
+          "investigationId": null,
+          "title": "Maximum oxygen concentration and flammability: oxygen concentration versus partial pressure (ASTM symposium)",
+          "url": "https://ntrs.nasa.gov/citations/20160001047",
+          "doi": null
+        },
+        "chunk-f-test1-not-conservative": {
+          "sourceId": "olson-2008-tm",
+          "investigationId": "PSI-26",
+          "title": "Material flammability in microgravity and partial-pressure atmospheres (NASA/TM-2008-215260, SAE 2008-01-2055)",
+          "url": "https://ntrs.nasa.gov/citations/20080034883",
+          "doi": null
+        },
+        "chunk-f-spread-multiplier": {
+          "sourceId": "olson-2008-tm",
+          "investigationId": null,
+          "title": "Material flammability in microgravity and partial-pressure atmospheres (NASA/TM-2008-215260, SAE 2008-01-2055)",
+          "url": "https://ntrs.nasa.gov/citations/20080034883",
+          "doi": null
+        },
+        "chunk-f-exploration-atmosphere": {
+          "sourceId": "ferkul-2026-lpsc",
+          "investigationId": null,
+          "title": "Material Flammability at Lunar and Martian Gravity (LPSC 2026)",
+          "url": "https://ntrs.nasa.gov/citations/20260001966",
+          "doi": null
+        },
+        "chunk-f-lunar-most-flammable": {
+          "sourceId": "ferkul-2026-lpsc",
+          "investigationId": null,
+          "title": "Material Flammability at Lunar and Martian Gravity (LPSC 2026)",
+          "url": "https://ntrs.nasa.gov/citations/20260001966",
+          "doi": null
+        },
+        "chunk-f-fm2": {
+          "sourceId": "ferkul-2026-lpsc",
+          "investigationId": null,
+          "title": "Material Flammability at Lunar and Martian Gravity (LPSC 2026)",
+          "url": "https://ntrs.nasa.gov/citations/20260001966",
+          "doi": null
+        },
+        "chunk-f-lunar-spread": {
+          "sourceId": "ferkul-2026-lpsc",
+          "investigationId": null,
+          "title": "Material Flammability at Lunar and Martian Gravity (LPSC 2026)",
+          "url": "https://ntrs.nasa.gov/citations/20260001966",
+          "doi": null
+        },
+        "habitat:exploration": {
+          "sourceId": "ferkul-2026-lpsc",
+          "investigationId": null,
+          "title": "Material Flammability at Lunar and Martian Gravity (LPSC 2026)",
+          "url": "https://ntrs.nasa.gov/citations/20260001966",
+          "doi": null
+        }
+      },
+      "sentences": [
+        {
+          "text": "Raising the oxygen concentration to hold breathing partial pressure at a lower total pressure makes a cabin more flammable, because fire responds to oxygen mole fraction rather than partial pressure.",
+          "citations": [
+            "chunk-f-o2-fraction"
+          ],
+          "supported": true
+        },
+        {
+          "text": "Models estimate that for thin fabrics, flames spread about 1.5 to 1.8 times faster in the exploration atmosphere of 34 percent oxygen and 8.2 psia compared to ISS air.",
+          "citations": [
+            "chunk-f-spread-multiplier",
+            "habitat:exploration"
+          ],
+          "supported": true
+        },
+        {
+          "text": "Additionally, models indicate that downward flame spread rates peak in partial gravity, meaning lunar gravity may be close to the most flammable condition.",
+          "citations": [
+            "chunk-f-lunar-most-flammable"
+          ],
+          "supported": true
+        }
+      ],
+      "mode": "llm",
+      "model": "gemini-flash-lite-latest",
+      "verifiedCitations": 4,
+      "totalCitations": 4,
+      "latencyMs": 1443,
+      "note": null,
+      "generatedBy": "gemini-flash-lite-latest"
+    }
+  },
+  {
+    "question": "Does CO2 or helium suppress droplet flames better in microgravity?",
+    "habitatId": "iss",
+    "answer": {
+      "question": "Does CO2 or helium suppress droplet flames better in microgravity?",
+      "retrieved": [
+        {
+          "id": "chunk-f-flex-loi",
+          "title": "Finding: flex loi",
+          "score": 24.391
+        },
+        {
+          "id": "psi-69-c2",
+          "title": "FLEX: Approach",
+          "score": 14.17
+        },
+        {
+          "id": "psi-69-c8",
+          "title": "FLEX: Publications and data",
+          "score": 12.869
+        },
+        {
+          "id": "chunk-f-test1-not-conservative",
+          "title": "Finding: test1 not conservative",
+          "score": 10.065
+        },
+        {
+          "id": "psi-69-c1",
+          "title": "FLEX: Objectives",
+          "score": 9.976
+        },
+        {
+          "id": "chunk-f-flex-co2-he",
+          "title": "Finding: flex co2 he",
+          "score": 9.355
+        },
+        {
+          "id": "psi-39-c2",
+          "title": "CFI: Approach",
+          "score": 9.251
+        },
+        {
+          "id": "habitat:iss",
+          "title": "Selected habitat: International Space Station cabin",
+          "score": 0
+        }
+      ],
+      "passages": {
+        "chunk-f-flex-loi": {
+          "sourceId": "nayagam-2013-loi",
+          "investigationId": "PSI-69",
+          "title": "Methanol droplet limiting oxygen index in FLEX",
+          "url": "https://ntrs.nasa.gov/citations/20130014061",
+          "doi": null
+        },
+        "psi-69-c2": {
+          "sourceId": "psi-69",
+          "investigationId": "PSI-69",
+          "title": "NASA PSI-69: FLEX: Flame Extinguishment Experiment",
+          "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-69",
+          "doi": "10.60555/mbq8-0451"
+        },
+        "psi-69-c8": {
+          "sourceId": "psi-69",
+          "investigationId": "PSI-69",
+          "title": "NASA PSI-69: FLEX: Flame Extinguishment Experiment",
+          "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-69",
+          "doi": "10.60555/mbq8-0451"
+        },
+        "chunk-f-test1-not-conservative": {
+          "sourceId": "olson-2008-tm",
+          "investigationId": "PSI-26",
+          "title": "Material flammability in microgravity and partial-pressure atmospheres (NASA/TM-2008-215260, SAE 2008-01-2055)",
+          "url": "https://ntrs.nasa.gov/citations/20080034883",
+          "doi": null
+        },
+        "psi-69-c1": {
+          "sourceId": "psi-69",
+          "investigationId": "PSI-69",
+          "title": "NASA PSI-69: FLEX: Flame Extinguishment Experiment",
+          "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-69",
+          "doi": "10.60555/mbq8-0451"
+        },
+        "chunk-f-flex-co2-he": {
+          "sourceId": "nayagam-2013-loi",
+          "investigationId": "PSI-69",
+          "title": "Methanol droplet limiting oxygen index in FLEX",
+          "url": "https://ntrs.nasa.gov/citations/20130014061",
+          "doi": null
+        },
+        "psi-39-c2": {
+          "sourceId": "psi-39",
+          "investigationId": "PSI-39",
+          "title": "NASA PSI-39: CFI: Cool Flames Investigation",
+          "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-39",
+          "doi": "10.60555/m6pj-a914"
+        },
+        "habitat:iss": {
+          "sourceId": "olson-2008-tm",
+          "investigationId": null,
+          "title": "Material flammability in microgravity and partial-pressure atmospheres (NASA/TM-2008-215260, SAE 2008-01-2055)",
+          "url": "https://ntrs.nasa.gov/citations/20080034883",
+          "doi": null
+        }
+      },
+      "sentences": [
+        {
+          "text": "Carbon dioxide raises the heptane limiting oxygen index by about 2 points.",
+          "citations": [
+            "chunk-f-flex-co2-he"
+          ],
+          "supported": true
+        },
+        {
+          "text": "In contrast, helium barely changes the heptane limiting oxygen index.",
+          "citations": [
+            "chunk-f-flex-co2-he"
+          ],
+          "supported": true
+        }
+      ],
+      "mode": "llm",
+      "model": "gemini-flash-lite-latest",
+      "verifiedCitations": 2,
+      "totalCitations": 2,
+      "latencyMs": 723,
+      "note": null,
+      "generatedBy": "gemini-flash-lite-latest"
+    }
+  },
+  {
+    "question": "What fire data exist for lunar gravity, and what is still missing?",
+    "habitatId": "iss",
+    "answer": {
+      "question": "What fire data exist for lunar gravity, and what is still missing?",
+      "retrieved": [
+        {
+          "id": "chunk-f-exploration-atmosphere",
+          "title": "Finding: exploration atmosphere",
+          "score": 14.294
+        },
+        {
+          "id": "chunk-f-lunar-most-flammable",
+          "title": "Finding: lunar most flammable",
+          "score": 13.237
+        },
+        {
+          "id": "chunk-f-fm2",
+          "title": "Finding: fm2",
+          "score": 12.815
+        },
+        {
+          "id": "chunk-f-lunar-spread",
+          "title": "Finding: lunar spread",
+          "score": 12.055
+        },
+        {
+          "id": "psi-102-c7",
+          "title": "SAME: Publications and data",
+          "score": 9.114
+        },
+        {
+          "id": "psi-25-c8",
+          "title": "BASS-II: Publications and data",
+          "score": 9.103
+        },
+        {
+          "id": "psi-20-c7",
+          "title": "BRE: Research Impacts/Earth Benefits",
+          "score": 8.343
+        },
+        {
+          "id": "habitat:iss",
+          "title": "Selected habitat: International Space Station cabin",
+          "score": 0
+        }
+      ],
+      "passages": {
+        "chunk-f-exploration-atmosphere": {
+          "sourceId": "ferkul-2026-lpsc",
+          "investigationId": null,
+          "title": "Material Flammability at Lunar and Martian Gravity (LPSC 2026)",
+          "url": "https://ntrs.nasa.gov/citations/20260001966",
+          "doi": null
+        },
+        "chunk-f-lunar-most-flammable": {
+          "sourceId": "ferkul-2026-lpsc",
+          "investigationId": null,
+          "title": "Material Flammability at Lunar and Martian Gravity (LPSC 2026)",
+          "url": "https://ntrs.nasa.gov/citations/20260001966",
+          "doi": null
+        },
+        "chunk-f-fm2": {
+          "sourceId": "ferkul-2026-lpsc",
+          "investigationId": null,
+          "title": "Material Flammability at Lunar and Martian Gravity (LPSC 2026)",
+          "url": "https://ntrs.nasa.gov/citations/20260001966",
+          "doi": null
+        },
+        "chunk-f-lunar-spread": {
+          "sourceId": "ferkul-2026-lpsc",
+          "investigationId": null,
+          "title": "Material Flammability at Lunar and Martian Gravity (LPSC 2026)",
+          "url": "https://ntrs.nasa.gov/citations/20260001966",
+          "doi": null
+        },
+        "psi-102-c7": {
+          "sourceId": "psi-102",
+          "investigationId": "PSI-102",
+          "title": "NASA PSI-102: SAME: Smoke and Aerosol Measurement Experiment",
+          "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-102",
+          "doi": "10.60555/gd4k-8h62"
+        },
+        "psi-25-c8": {
+          "sourceId": "psi-25",
+          "investigationId": "PSI-25",
+          "title": "NASA PSI-25: BASS-II: Burning and Suppression of Solids II",
+          "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-25",
+          "doi": "10.60555/4qc4-de67"
+        },
+        "psi-20-c7": {
+          "sourceId": "psi-20",
+          "investigationId": "PSI-20",
+          "title": "NASA PSI-20: ACME BRE: Burning Rate Emulator",
+          "url": "https://psi.nasa.gov/physci/repo/data/investigations/PSI-20",
+          "doi": "10.60555/vb93-3y72"
+        },
+        "habitat:iss": {
+          "sourceId": "olson-2008-tm",
+          "investigationId": null,
+          "title": "Material flammability in microgravity and partial-pressure atmospheres (NASA/TM-2008-215260, SAE 2008-01-2055)",
+          "url": "https://ntrs.nasa.gov/citations/20080034883",
+          "doi": null
+        }
+      },
+      "sentences": [
+        {
+          "text": "Downward flame spread over SIBAL fabric in lunar gravity is measured at 0.11 cm/s in a centrifuge drop test and 0.086 cm/s in parabolic aircraft flight.",
+          "citations": [
+            "chunk-f-lunar-spread"
+          ],
+          "supported": true
+        },
+        {
+          "text": "Models indicate that lunar gravity may be close to the most flammable condition because the oxygen needed for flammability reaches a minimum and downward spread rate peaks in partial gravity.",
+          "citations": [
+            "chunk-f-lunar-most-flammable"
+          ],
+          "supported": true
+        },
+        {
+          "text": "No PSI solid-material fabric or plastic tests have been run at the nominal lunar habitat atmosphere of 8.2 psia and 34 percent O2.",
+          "citations": [
+            "chunk-f-exploration-atmosphere"
+          ],
+          "supported": true
+        },
+        {
+          "text": "A planned lunar-surface flame-spread test called FM2 will burn four fabric samples upward at 8.2 psia starting at 37, 33, 29, and 25 percent O2.",
+          "citations": [
+            "chunk-f-fm2"
+          ],
+          "supported": true
+        }
+      ],
+      "mode": "llm",
+      "model": "gemini-flash-lite-latest",
+      "verifiedCitations": 4,
+      "totalCitations": 4,
+      "latencyMs": 1332,
+      "note": null,
+      "generatedBy": "gemini-flash-lite-latest"
+    }
+  }
+]
