@@ -156,12 +156,6 @@ export default function Method({
         </ul>
       </Section>
 
-      <Section id="ai-h" title="Use of AI">
-        <p>
-          AI tools were used to help write code and organise data for this project. The in-app analyst uses a language model to phrase answers from retrieved passages. All numbers trace to cited NASA sources, and answer citations are verified against the retrieved set before they are shown.
-        </p>
-      </Section>
-
       <section aria-labelledby="ref-h" className="border-t border-line pt-6">
         <details>
           <summary id="ref-h" className="cursor-pointer text-[15px] font-semibold">References ({ref.length})</summary>
